@@ -334,8 +334,8 @@ function switchMapTheme(theme) {
   if (map && tileLayer) {
     map.removeLayer(tileLayer);
     tileLayer = L.tileLayer(TILE_URLS[theme], {
-      maxZoom: 2,
-      minZoom: 2,
+      maxZoom: 10,
+      minZoom: 1,
       noWrap: true,
     });
     tileLayer.addTo(map);

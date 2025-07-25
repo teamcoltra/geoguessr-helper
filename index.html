@@ -36,17 +36,18 @@
             .chip {
                 margin: 0.25rem 0.4rem 0.25rem 0;
             }
-            /* Custom outline styles - light theme */
-            :root[data-bs-theme="light"] .btn-outline-white {
+            /* Base custom outline styles for all themes and layouts */
+            .btn-outline-white {
                 color: #222;
                 border-color: #fff;
                 background: transparent;
             }
-            :root[data-bs-theme="light"] .btn-outline-black {
+            .btn-outline-black {
                 color: #fff;
                 border-color: #222;
                 background: transparent;
             }
+            /* Checked state for light theme */
             :root[data-bs-theme="light"]
                 .btn-check:checked
                 + .btn-outline-white {
@@ -54,17 +55,7 @@
                 background-color: #222;
                 border-color: #222;
             }
-            /* Custom outline styles - dark theme */
-            :root[data-bs-theme="dark"] .btn-outline-white {
-                color: #fff;
-                border-color: #222;
-                background: transparent;
-            }
-            :root[data-bs-theme="dark"] .btn-outline-black {
-                color: #222;
-                border-color: #fff;
-                background: transparent;
-            }
+            /* Checked state for dark theme */
             :root[data-bs-theme="dark"]
                 .btn-check:checked
                 + .btn-outline-white {
