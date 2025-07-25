@@ -1,0 +1,33 @@
+{
+  "ui": {
+    "Filters": "Filtros",
+    "match": "coincidencia",
+    "matches": "coincidencias",
+    "Clear all": "Borrar todo"
+  },
+  "facets": {
+    "cameras": "Generación de cámara",
+    "driving": "Lado de conducción",
+    "roadLine": "Líneas de carretera",
+    "flagColor": "Color de la bandera",
+    "flagPattern": "Patrón de la bandera",
+    "alphabet": "Alfabeto",
+    "scenery": "Paisaje",
+    "uniqueLetter": "Caracter",
+    "years": "Años"
+  },
+  "values": {
+    "left": "Izquierda",
+    "right": "Derecha",
+    "white-white": "Blanco–Blanco",
+    "white-yellow": "Blanco–Amarillo",
+    "yellow-white": "Amarillo–Blanco",
+    "yellow-yellow": "Amarillo–Amarillo",
+    "trekker": "Trekker",
+    "shit-cam": "Cámara mala",
+    "low-cam": "Cámara baja",
+    "union-jack": "Union Jack",
+    "vertical-stripes": "Rayas verticales",
+    "crescent-star": "Creciente + Estrella"
+  }
+}

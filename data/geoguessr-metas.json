@@ -1,0 +1,3271 @@
+{
+  "af": {
+    "cameras": ["trekker"],
+    "plates": [],
+    "years": [],
+    "name": "Afghanistan",
+    "alphabet": ["arabic"],
+    "scenery": ["mountains"],
+    "driving": ["right"],
+    "flagColor": ["black", "red", "green"],
+    "flagPattern": ["vertical-stripes"],
+    "roadLine": [],
+    "uniqueLetter": []
+  },
+  "al": {
+    "cameras": ["3"],
+    "plates": [
+      {
+        "tag": "new",
+        "image": "Albania_new.jpg"
+      },
+      {
+        "tag": "old",
+        "image": "Albania_old.jpg"
+      }
+    ],
+    "years": ["2016", "2019", "2020", "2021", "2022", "2024"],
+    "name": "Albania",
+    "alphabet": ["latin"],
+    "scenery": ["mountains"],
+    "driving": ["right"],
+    "flagColor": ["red", "black"],
+    "flagPattern": [],
+    "roadLine": ["white-white", "white-yellow"],
+    "uniqueLetter": ["Çç", "Ёё"]
+  },
+  "ad": {
+    "cameras": ["2", "3"],
+    "plates": [
+      {
+        "image": "Andorra.jpg"
+      }
+    ],
+    "years": [
+      "2013",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "name": "Andorra",
+    "alphabet": ["latin"],
+    "scenery": ["mountains"],
+    "driving": ["right"],
+    "flagColor": ["blue", "yellow", "red"],
+    "flagPattern": ["vertical-stripes"],
+    "roadLine": ["white-white"],
+    "uniqueLetter": []
+  },
+  "ar": {
+    "cameras": ["3", "4", "trekker"],
+    "plates": [
+      {
+        "tag": "new",
+        "image": "Argentina_new.jpg"
+      },
+      {
+        "tag": "old",
+        "image": "Argentina_old.jpg"
+      }
+    ],
+    "years": [
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "name": "Argentina",
+    "alphabet": ["latin"],
+    "scenery": ["mountains", "flat", "desert"],
+    "driving": ["right"],
+    "flagColor": ["blue", "white"],
+    "flagPattern": ["stripes", "sun"],
+    "roadLine": ["white-white", "white-yellow"],
+    "uniqueLetter": ["Áá", "Éé", "Íí", "Ññ", "Óó", "Úú"]
+  },
+  "au": {
+    "cameras": ["1", "2", "3", "4", "trekker"],
+    "plates": [
+      {
+        "Australian Capital Territory": {
+          "image": "Australia_ACT.jpg"
+        }
+      },
+      {
+        "New South Wales": {
+          "image": "Australia_NSW.jpg"
+        }
+      },
+      {
+        "Northern Territory": {
+          "image": "Australia_NT.jpg"
+        }
+      },
+      {
+        "Queensland": {
+          "image": "Australia_Queensland.jpg"
+        }
+      },
+      {
+        "South Australia": {
+          "image": "Australia_SA.jpg"
+        }
+      },
+      {
+        "Tasmania": {
+          "image": "Australia_Tasmania.jpg"
+        }
+      },
+      {
+        "Victoria": {
+          "image": "Australia_Victoria.jpg"
+        }
+      },
+      {
+        "Western Australia": {
+          "image": "Australia_WA.jpg"
+        }
+      }
+    ],
+    "years": [
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "name": "Australia",
+    "alphabet": ["latin"],
+    "scenery": ["flat", "desert"],
+    "driving": ["left"],
+    "flagColor": ["blue", "white", "red"],
+    "flagPattern": ["star", "union-jack"],
+    "roadLine": ["white-white", "yellow-yellow"],
+    "uniqueLetter": []
+  },
+  "at": {
+    "cameras": ["2", "3", "4", "trekker"],
+    "plates": [
+      {
+        "image": "Austria.jpg"
+      }
+    ],
+    "years": [
+      "2012",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "name": "Austria",
+    "alphabet": ["latin"],
+    "scenery": ["mountains"],
+    "driving": ["right"],
+    "flagColor": ["red", "white"],
+    "flagPattern": ["stripes"],
+    "roadLine": ["white-white"],
+    "uniqueLetter": ["Ää", "Öö", "Üü"]
+  },
+  "bd": {
+    "cameras": ["3", "4", "shit-cam", "trekker"],
+    "plates": [
+      {
+        "image": "Bangladesh.jpg"
+      }
+    ],
+    "years": ["2015", "2016", "2019", "2020", "2022", "2023", "2024", "2025"],
+    "name": "Bangladesh",
+    "alphabet": ["বাংলা বর্ণমালা বা লিপি"],
+    "scenery": ["flat", "tropical"],
+    "driving": ["left"],
+    "flagColor": ["green", "red"],
+    "flagPattern": ["circle"],
+    "roadLine": ["white-white"],
+    "uniqueLetter": []
+  },
+  "be": {
+    "cameras": ["2", "3", "4", "trekker"],
+    "plates": [
+      {
+        "tag": "new",
+        "image": "Belgium_new.jpg"
+      },
+      {
+        "tag": "old",
+        "image": "Belgium_old.jpg"
+      }
+    ],
+    "years": ["2017", "2018", "2019", "2020", "2021", "2023", "2024", "2025"],
+    "name": "Belgium",
+    "alphabet": ["latin"],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["black", "yellow", "red"],
+    "flagPattern": ["vertical-stripes"],
+    "roadLine": ["white-white"],
+    "uniqueLetter": ["Ââ", "Àà", "Éé", "Èè", "Êê", "Її", "Ôô"]
+  },
+  "bt": {
+    "cameras": ["3"],
+    "plates": [
+      {
+        "image": "Bhutan.jpg"
+      }
+    ],
+    "years": ["2014", "2016", "2017", "2018", "2019", "2021", "2022", "2024"],
+    "name": "Bhutan",
+    "alphabet": ["གྲོ་བ་མི་རིགསགདབང་ཆ་འདྲ་མཏམད་སྒྱེཝ་་ག་།"],
+    "scenery": [],
+    "driving": ["left"],
+    "flagColor": ["orange", "yellow", "white"],
+    "flagPattern": [],
+    "roadLine": ["white-white"],
+    "uniqueLetter": []
+  },
+  "bo": {
+    "cameras": ["3", "trekker"],
+    "plates": [
+      {
+        "image": "Bolivia.jpg"
+      }
+    ],
+    "years": [
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2024"
+    ],
+    "name": "Bolivia",
+    "alphabet": ["latin"],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["red", "yellow", "green"],
+    "flagPattern": ["stripes"],
+    "roadLine": ["white-white", "white-yellow"],
+    "uniqueLetter": ["Áá", "Éé", "Íí", "Ññ", "Óó", "Úú"]
+  },
+  "bw": {
+    "cameras": ["3"],
+    "plates": [
+      {
+        "tag": "back",
+        "image": "Botswana_back.jpg"
+      },
+      {
+        "tag": "front",
+        "image": "Botswana_front.jpg"
+      }
+    ],
+    "years": [
+      "2012",
+      "2013",
+      "2014",
+      "2016",
+      "2017",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2024"
+    ],
+    "name": "Botswana",
+    "alphabet": ["latin"],
+    "scenery": [],
+    "driving": ["left"],
+    "flagColor": ["blue", "white", "black"],
+    "flagPattern": ["stripes"],
+    "roadLine": ["yellow-white"],
+    "uniqueLetter": []
+  },
+  "br": {
+    "cameras": ["2", "3", "4", "trekker"],
+    "plates": [
+      {
+        "tag": "new",
+        "image": "Brazil_new.jpg"
+      },
+      {
+        "tag": "old",
+        "image": "Brazil_old.jpg"
+      }
+    ],
+    "years": [
+      "2009",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "name": "Brazil",
+    "alphabet": ["latin"],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["green", "yellow", "blue"],
+    "flagPattern": [],
+    "roadLine": ["white-white", "white-yellow"],
+    "uniqueLetter": [
+      "Áá",
+      "Ââ",
+      "Ãã",
+      "Çç",
+      "Éé",
+      "Êê",
+      "Íí",
+      "Õõ",
+      "Óó",
+      "Ôô",
+      "Úú"
+    ]
+  },
+  "bg": {
+    "cameras": ["3", "4", "trekker"],
+    "plates": [
+      {
+        "tag": "new",
+        "image": "Bulgaria_new.jpg"
+      },
+      {
+        "tag": "old",
+        "image": "Bulgaria_old.jpg"
+      }
+    ],
+    "years": [
+      "2013",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "name": "Bulgaria",
+    "alphabet": ["cyrillic", "latin"],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["white", "green", "red"],
+    "flagPattern": ["stripes"],
+    "roadLine": ["white-white"],
+    "uniqueLetter": ["Гг", "Ъъ"]
+  },
+  "kh": {
+    "cameras": ["3", "shit-cam", "trekker"],
+    "plates": [
+      {
+        "image": "Cambodia.jpg"
+      }
+    ],
+    "years": [
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "name": "Cambodia",
+    "alphabet": ["ប្រទេសកម្ពុជា ភ្នំពេញ"],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["red", "blue", "white"],
+    "flagPattern": ["stripes"],
+    "roadLine": ["white-yellow"],
+    "uniqueLetter": []
+  },
+  "ca": {
+    "cameras": ["1", "2", "3", "4", "trekker"],
+    "plates": [
+      {
+        "Alberta": {
+          "image": "Canada_Alberta.jpg"
+        }
+      },
+      {
+        "British Columbia": {
+          "image": "Canada_BC.jpg"
+        }
+      },
+      {
+        "Manitoba": {
+          "image": "Canada_Manitoba.jpg"
+        }
+      },
+      {
+        "New Brunswick": {
+          "image": "Canada_NB.jpg"
+        }
+      },
+      {
+        "Newfoundland and Labrador": {
+          "image": "Canada_NL.jpg"
+        }
+      },
+      {
+        "Nova Scotia": {
+          "image": "Canada_NS.jpg"
+        }
+      },
+      {
+        "Northwest Territories": {
+          "image": "Canada_NT.jpg"
+        }
+      },
+      {
+        "Nunavut": {
+          "image": "Canada_Nunavut.jpg"
+        }
+      },
+      {
+        "Ontario": {
+          "image": "Canada_Ontario.jpg"
+        }
+      },
+      {
+        "Prince Edward Island": {
+          "image": "Canada_PEI.jpg"
+        }
+      },
+      {
+        "Quebec": {
+          "image": "Canada_Quebec.jpg"
+        }
+      },
+      {
+        "Saskatchewan": {
+          "image": "Canada_Saskatchewan.jpg"
+        }
+      },
+      {
+        "Yukon": {
+          "image": "Canada_Yukon.jpg"
+        }
+      }
+    ],
+    "years": [
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "name": "Canada",
+    "alphabet": ["latin"],
+    "scenery": ["woods", "mountains", "snow"],
+    "driving": ["right"],
+    "flagColor": ["red", "white"],
+    "flagPattern": ["stripes"],
+    "roadLine": ["white-yellow"],
+    "uniqueLetter": ["Ââ", "Àà", "Éé", "Èè", "Êê", "Її", "Ôô"]
+  },
+  "cl": {
+    "cameras": ["2", "3", "4", "trekker"],
+    "plates": [
+      {
+        "image": "Chile.jpg"
+      }
+    ],
+    "years": ["2014", "2015", "2016", "2019", "2020", "2023", "2024", "2025"],
+    "name": "Chile",
+    "alphabet": ["latin"],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["red", "white", "blue"],
+    "flagPattern": ["stripes", "star"],
+    "roadLine": [
+      "yellow-white",
+      "white-white",
+      "white-yellow",
+      "yellow-yellow"
+    ],
+    "uniqueLetter": ["Áá", "Éé", "Íí", "Ññ", "Óó", "Úú"]
+  },
+  "cn": {
+    "cameras": ["trekker"],
+    "plates": [],
+    "years": [],
+    "name": "China",
+    "alphabet": ["汉语漢語"],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["red", "yellow"],
+    "flagPattern": ["star"],
+    "roadLine": [],
+    "uniqueLetter": []
+  },
+  "co": {
+    "cameras": ["3", "4", "trekker"],
+    "plates": [
+      {
+        "image": "Colombia.jpg"
+      }
+    ],
+    "years": ["2013", "2015", "2016", "2019", "2020", "2023", "2024", "2025"],
+    "name": "Colombia",
+    "alphabet": ["latin"],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["yellow", "blue", "red"],
+    "flagPattern": ["stripes"],
+    "roadLine": ["white-yellow"],
+    "uniqueLetter": ["Áá", "Éé", "Íí", "Ññ", "Óó", "Úú"]
+  },
+  "cr": {
+    "cameras": ["trekker"],
+    "plates": [],
+    "years": ["2020"],
+    "name": "Costa Rica",
+    "alphabet": ["latin"],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["red", "white", "blue"],
+    "flagPattern": ["stripes"],
+    "roadLine": [],
+    "uniqueLetter": ["Áá", "Éé", "Íí", "Ññ", "Óó", "Úú"]
+  },
+  "hr": {
+    "cameras": ["2", "3", "4", "trekker"],
+    "plates": [
+      {
+        "tag": "new",
+        "image": "Croatia_new.jpg"
+      },
+      {
+        "tag": "old",
+        "image": "Croatia_old.jpg"
+      }
+    ],
+    "years": [
+      "2012",
+      "2013",
+      "2014",
+      "2016",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "name": "Croatia",
+    "alphabet": ["latin"],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["red", "white", "blue"],
+    "flagPattern": ["stripes"],
+    "roadLine": ["white-white"],
+    "uniqueLetter": ["Ćć", "Čč", "Đđ", "Šš", "Žž"]
+  },
+  "dk": {
+    "cameras": ["2", "3", "4", "trekker"],
+    "plates": [
+      {
+        "tag": "commercial",
+        "image": "Denmark_commercial.jpg"
+      },
+      {
+        "tag": "parrot",
+        "image": "Denmark_parrot.jpg"
+      },
+      {
+        "tag": "private",
+        "image": "Denmark_private.jpg"
+      }
+    ],
+    "years": [
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "name": "Denmark",
+    "alphabet": ["latin"],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["red", "white"],
+    "flagPattern": ["cross"],
+    "roadLine": ["white-white"],
+    "uniqueLetter": ["Åå", "Ææ", "Øø"]
+  },
+  "do": {
+    "cameras": ["3"],
+    "plates": [
+      {
+        "image": "Dominican_Republic.jpg"
+      }
+    ],
+    "years": ["2020", "2021", "2022", "2024"],
+    "name": "Dominican Republic",
+    "alphabet": ["latin"],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["red", "white", "blue"],
+    "flagPattern": ["cross"],
+    "roadLine": [],
+    "uniqueLetter": ["Áá", "Éé", "Íí", "Ññ", "Óó", "Úú"]
+  },
+  "ec": {
+    "cameras": ["3", "4", "shit-cam", "trekker"],
+    "plates": [
+      {
+        "image": "Ecuador.jpg"
+      }
+    ],
+    "years": [
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "name": "Ecuador",
+    "alphabet": ["latin"],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["yellow", "blue", "red"],
+    "flagPattern": ["stripes"],
+    "roadLine": ["white-yellow"],
+    "uniqueLetter": ["Áá", "Éé", "Íí", "Ññ", "Óó", "Úú"]
+  },
+  "eg": {
+    "cameras": ["trekker"],
+    "plates": [],
+    "years": [],
+    "name": "Egypt",
+    "alphabet": ["arabic"],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["red", "white", "black"],
+    "flagPattern": ["stripes"],
+    "roadLine": [],
+    "uniqueLetter": []
+  },
+  "ee": {
+    "cameras": ["3", "4", "trekker"],
+    "plates": [
+      {
+        "image": "Estonia.jpg"
+      }
+    ],
+    "years": [
+      "2012",
+      "2013",
+      "2014",
+      "2016",
+      "2017",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "name": "Estonia",
+    "alphabet": ["latin"],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["blue", "black", "white"],
+    "flagPattern": ["stripes"],
+    "roadLine": ["white-white"],
+    "uniqueLetter": ["Ää", "Öö", "Õõ", "Šš", "Üü", "Žž"]
+  },
+  "sz": {
+    "cameras": ["3"],
+    "plates": [
+      {
+        "image": "Eswatini.jpg"
+      }
+    ],
+    "years": [
+      "2013",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "name": "Eswatini",
+    "alphabet": ["latin"],
+    "scenery": [],
+    "driving": ["left"],
+    "flagColor": ["blue", "yellow", "red"],
+    "flagPattern": ["stripes"],
+    "roadLine": ["yellow-white"],
+    "uniqueLetter": []
+  },
+  "fi": {
+    "cameras": ["2", "3", "4", "shit-cam", "trekker"],
+    "plates": [
+      {
+        "image": "Finland.jpg"
+      }
+    ],
+    "years": ["2013", "2014", "2017", "2019", "2022", "2024", "2025"],
+    "name": "Finland",
+    "alphabet": ["latin"],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["blue", "white"],
+    "flagPattern": ["cross"],
+    "roadLine": ["white-white", "white-yellow"],
+    "uniqueLetter": ["Ää", "Åå", "Öö"]
+  },
+  "fr": {
+    "cameras": ["1", "2", "3", "4", "trekker"],
+    "plates": [
+      {
+        "tag": "new",
+        "image": "France_new.jpg"
+      },
+      {
+        "tag": "old-back",
+        "image": "France_old_back.jpg"
+      },
+      {
+        "tag": "old-front",
+        "image": "France_old_front.jpg"
+      }
+    ],
+    "years": [
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "name": "France",
+    "alphabet": ["latin"],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["blue", "white", "red"],
+    "flagPattern": ["vertical-stripes"],
+    "roadLine": ["white-white"],
+    "uniqueLetter": ["Ââ", "Àà", "Éé", "Èè", "Êê", "Її", "Ôô"]
+  },
+  "de": {
+    "cameras": ["2", "3", "4", "trekker"],
+    "plates": [
+      {
+        "image": "Germany.jpg"
+      }
+    ],
+    "years": ["2010", "2013", "2020", "2021", "2022", "2023", "2024", "2025"],
+    "name": "Germany",
+    "alphabet": ["latin"],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["black", "red", "yellow"],
+    "flagPattern": ["stripes"],
+    "roadLine": ["white-white", "yellow-yellow"],
+    "uniqueLetter": ["Ää", "Öö", "Üü"]
+  },
+  "gh": {
+    "cameras": ["3", "trekker"],
+    "plates": [
+      {
+        "image": "Ghana.jpg"
+      }
+    ],
+    "years": ["2017", "2019", "2021", "2022", "2024"],
+    "name": "Ghana",
+    "alphabet": ["latin"],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["red", "yellow", "green"],
+    "flagPattern": ["stripes"],
+    "roadLine": ["white-white"],
+    "uniqueLetter": []
+  },
+  "gr": {
+    "cameras": ["2", "3", "4", "trekker"],
+    "plates": [
+      {
+        "image": "Greece.jpg"
+      }
+    ],
+    "years": [
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "name": "Greece",
+    "alphabet": ["greek"],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["blue", "white"],
+    "flagPattern": ["stripes"],
+    "roadLine": ["white-white"],
+    "uniqueLetter": []
+  },
+  "gt": {
+    "cameras": ["3", "trekker"],
+    "plates": [
+      {
+        "tag": "new",
+        "image": "Guatemala_new.jpg"
+      },
+      {
+        "tag": "old",
+        "image": "Guatemala_old.jpg"
+      }
+    ],
+    "years": ["2017", "2019", "2021", "2022", "2023", "2024", "2024"],
+    "name": "Guatemala",
+    "alphabet": ["latin"],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["blue", "white"],
+    "flagPattern": ["stripes"],
+    "roadLine": ["white-yellow"],
+    "uniqueLetter": ["Áá", "Éé", "Íí", "Ññ", "Óó", "Úú"]
+  },
+  "hu": {
+    "cameras": ["2", "3", "4", "trekker"],
+    "plates": [
+      {
+        "image": "Hungary.jpg"
+      }
+    ],
+    "years": [
+      "2013",
+      "2014",
+      "2016",
+      "2018",
+      "2019",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "name": "Hungary",
+    "alphabet": ["latin"],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["red", "white", "green"],
+    "flagPattern": ["stripes"],
+    "roadLine": ["white-white"],
+    "uniqueLetter": ["Áá", "Éé", "Íí", "Öö", "Óó", "Őő", "Üü", "Úú", "Űű"]
+  },
+  "is": {
+    "cameras": ["3", "4", "trekker"],
+    "plates": [
+      {
+        "image": "Iceland.jpg"
+      }
+    ],
+    "years": [
+      "2013",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "name": "Iceland",
+    "alphabet": ["latin"],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["blue", "white", "red"],
+    "flagPattern": ["cross"],
+    "roadLine": ["white-white"],
+    "uniqueLetter": ["Áá", "Ææ", "Ðð", "Éé", "Íí", "Öö", "Óó", "Úú", "Þþ"]
+  },
+  "in": {
+    "cameras": ["3", "4", "shit-cam", "trekker"],
+    "plates": [
+      {
+        "image": "India.jpg"
+      },
+      {
+        "tag": "2",
+        "image": "India_2.jpg"
+      }
+    ],
+    "years": ["2013", "2014", "2020", "2023", "2024", "2025"],
+    "name": "India",
+    "alphabet": ["मानक हिन्दी"],
+    "scenery": [],
+    "driving": ["left"],
+    "flagColor": ["orange", "white", "green"],
+    "flagPattern": ["circle"],
+    "roadLine": ["yellow-white", "white-white", "yellow-yellow"],
+    "uniqueLetter": []
+  },
+  "id": {
+    "cameras": ["3", "4", "trekker"],
+    "plates": [
+      {
+        "image": "Indonesia.jpg"
+      },
+      {
+        "tag": "new",
+        "image": "indonesia_new.jpg"
+      }
+    ],
+    "years": [
+      "2016",
+      "2017",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "name": "Indonesia",
+    "alphabet": ["latin"],
+    "scenery": [],
+    "driving": ["left"],
+    "flagColor": ["red", "white"],
+    "flagPattern": ["stripes"],
+    "roadLine": ["white-white", "white-yellow"],
+    "uniqueLetter": []
+  },
+  "ie": {
+    "cameras": ["2", "3", "4", "trekker"],
+    "plates": [
+      {
+        "image": "Ireland.jpg"
+      }
+    ],
+    "years": [
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2017",
+      "2019",
+      "2020",
+      "2022",
+      "2024",
+      "2025"
+    ],
+    "name": "Ireland",
+    "alphabet": ["latin"],
+    "scenery": [],
+    "driving": ["left"],
+    "flagColor": ["green", "white", "orange"],
+    "flagPattern": ["vertical-stripes"],
+    "roadLine": ["yellow-white"],
+    "uniqueLetter": ["Áá", "Éé", "Íí", "Óó", "Úú"]
+  },
+  "il": {
+    "cameras": ["2", "3", "4", "trekker"],
+    "plates": [
+      {
+        "image": "Israel.jpg"
+      }
+    ],
+    "years": [
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "name": "Israel",
+    "alphabet": ["אָלֶף־בֵּית עִבְרִ"],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["blue", "white"],
+    "flagPattern": ["stripes", "star"],
+    "roadLine": ["yellow-white"],
+    "uniqueLetter": []
+  },
+  "it": {
+    "cameras": ["1", "2", "3", "4", "low-cam", "trekker"],
+    "plates": [
+      {
+        "tag": "new",
+        "image": "Italy_new.jpg"
+      },
+      {
+        "tag": "old",
+        "image": "Italy_old.jpg"
+      }
+    ],
+    "years": [
+      "2010",
+      "2012",
+      "2013",
+      "2014",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "name": "Italy",
+    "alphabet": ["latin"],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["green", "white", "red"],
+    "flagPattern": ["vertical-stripes"],
+    "roadLine": ["white-white"],
+    "uniqueLetter": []
+  },
+  "jp": {
+    "cameras": ["1", "2", "3", "4", "low-cam", "trekker"],
+    "plates": [
+      {
+        "tag": "white",
+        "image": "Japan_white.jpg"
+      },
+      {
+        "tag": "yellow",
+        "image": "Japan_yellow.jpg"
+      }
+    ],
+    "years": [
+      "2009",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2016",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "name": "Japan",
+    "alphabet": ["日本の東京", "汉语漢語"],
+    "scenery": [],
+    "driving": ["left"],
+    "flagColor": ["red", "white"],
+    "flagPattern": ["circle"],
+    "roadLine": ["white-white", "white-yellow"],
+    "uniqueLetter": []
+  },
+  "jo": {
+    "cameras": ["3", "trekker"],
+    "plates": [
+      {
+        "image": "Jordan.jpg"
+      }
+    ],
+    "years": ["2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
+    "name": "Jordan",
+    "alphabet": ["arabic"],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["black", "white", "green"],
+    "flagPattern": ["stripes", "star"],
+    "roadLine": ["yellow-white"],
+    "uniqueLetter": []
+  },
+  "ke": {
+    "cameras": ["3", "4", "trekker"],
+    "plates": [
+      {
+        "tag": "back",
+        "image": "Kenya_back.jpg"
+      },
+      {
+        "tag": "front",
+        "image": "Kenya_front.jpg"
+      }
+    ],
+    "years": ["2018", "2019", "2022", "2023", "2024", "2025"],
+    "name": "Kenya",
+    "alphabet": ["latin"],
+    "scenery": [],
+    "driving": ["left"],
+    "flagColor": ["black", "red", "green"],
+    "flagPattern": ["stripes"],
+    "roadLine": ["white-yellow"],
+    "uniqueLetter": []
+  },
+  "kg": {
+    "cameras": ["3", "trekker"],
+    "plates": [
+      {
+        "tag": "new",
+        "image": "Kyrgyzstan_new.jpg"
+      },
+      {
+        "tag": "old",
+        "image": "Kyrgyzstan_old.jpg"
+      }
+    ],
+    "years": ["2016", "2018", "2019", "2021", "2022", "2024"],
+    "name": "Kyrgyzstan",
+    "alphabet": [],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["red", "yellow"],
+    "flagPattern": [],
+    "roadLine": ["white-white"],
+    "uniqueLetter": []
+  },
+  "la": {
+    "cameras": ["3", "trekker"],
+    "plates": [
+      {
+        "image": "Laos.jpg"
+      }
+    ],
+    "years": [
+      "2014",
+      "2015",
+      "2016",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2024"
+    ],
+    "name": "Laos",
+    "alphabet": [],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["red", "blue", "white"],
+    "flagPattern": ["stripes", "circle"],
+    "roadLine": ["white-white"],
+    "uniqueLetter": []
+  },
+  "lv": {
+    "cameras": ["3", "4", "trekker"],
+    "plates": [
+      {
+        "image": "Latvia.jpg"
+      }
+    ],
+    "years": [
+      "2013",
+      "2014",
+      "2016",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "name": "Latvia",
+    "alphabet": [],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["red", "white"],
+    "flagPattern": ["stripes"],
+    "roadLine": ["white-white"],
+    "uniqueLetter": [
+      "Āā",
+      "Čč",
+      "Ēē",
+      "Ģģ",
+      "Īī",
+      "Ķķ",
+      "Ļļ",
+      "Ņņ",
+      "Šš",
+      "Ūū",
+      "Žž"
+    ]
+  },
+  "ls": {
+    "cameras": ["3"],
+    "plates": [
+      {
+        "image": "Lesotho.jpg"
+      }
+    ],
+    "years": ["2017", "2019", "2020", "2021", "2022", "2023", "2024"],
+    "name": "Lesotho",
+    "alphabet": [],
+    "scenery": [],
+    "driving": ["left"],
+    "flagColor": ["blue", "white", "green"],
+    "flagPattern": ["stripes"],
+    "roadLine": ["yellow-white"],
+    "uniqueLetter": []
+  },
+  "lt": {
+    "cameras": ["3", "4", "trekker"],
+    "plates": [
+      {
+        "image": "Lithuania.jpg"
+      }
+    ],
+    "years": [
+      "2013",
+      "2014",
+      "2016",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2024",
+      "2025"
+    ],
+    "name": "Lithuania",
+    "alphabet": [],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["yellow", "green", "red"],
+    "flagPattern": ["stripes"],
+    "roadLine": ["yellow-white", "white-white"],
+    "uniqueLetter": ["Ąą", "Čč", "Ęę", "Ėė", "Įį", "Šš", "Ūū", "Ųų", "Žž"]
+  },
+  "lu": {
+    "cameras": ["2", "3", "4", "trekker"],
+    "plates": [
+      {
+        "image": "Luxembourg.jpg"
+      }
+    ],
+    "years": ["2014", "2017", "2019", "2021", "2022", "2023", "2024"],
+    "name": "Luxembourg",
+    "alphabet": [],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["red", "white", "blue"],
+    "flagPattern": ["stripes"],
+    "roadLine": ["white-white"],
+    "uniqueLetter": ["Ââ", "Àà", "Éé", "Èè", "Êê", "Її", "Ôô"]
+  },
+  "my": {
+    "cameras": ["3", "4", "trekker"],
+    "plates": [
+      {
+        "image": "Malaysia.jpg"
+      }
+    ],
+    "years": ["2013", "2015", "2016", "2018", "2019", "2020", "2021", "2025"],
+    "name": "Malaysia",
+    "alphabet": ["latin"],
+    "scenery": [],
+    "driving": ["left"],
+    "flagColor": ["red", "white", "blue"],
+    "flagPattern": ["stripes", "crescent-star"],
+    "roadLine": ["white-white"],
+    "uniqueLetter": []
+  },
+  "mt": {
+    "cameras": ["3", "4", "trekker"],
+    "plates": [
+      {
+        "image": "Malta.jpg"
+      }
+    ],
+    "years": ["2016", "2018", "2019", "2020", "2021", "2022", "2024"],
+    "name": "Malta",
+    "alphabet": [],
+    "scenery": [],
+    "driving": ["left"],
+    "flagColor": ["red", "white"],
+    "flagPattern": ["vertical-stripes"],
+    "roadLine": ["white-white"],
+    "uniqueLetter": []
+  },
+  "mx": {
+    "cameras": ["1", "2", "3", "4", "trekker"],
+    "plates": [],
+    "years": [
+      "2012",
+      "2013",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "name": "Mexico",
+    "alphabet": ["latin"],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["green", "white", "red"],
+    "flagPattern": ["vertical-stripes"],
+    "roadLine": ["yellow-white", "white-yellow"],
+    "uniqueLetter": ["Áá", "Éé", "Íí", "Ññ", "Óó", "Úú"]
+  },
+  "mc": {
+    "cameras": ["1", "2", "3", "4"],
+    "plates": [
+      {
+        "tag": "back",
+        "image": "Monaco_back.jpg"
+      },
+      {
+        "tag": "front",
+        "image": "Monaco_front.jpg"
+      }
+    ],
+    "years": ["2013", "2016", "2019", "2021", "2024"],
+    "name": "Monaco",
+    "alphabet": [],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["red", "white"],
+    "flagPattern": ["stripes"],
+    "roadLine": ["white-white"],
+    "uniqueLetter": []
+  },
+  "mn": {
+    "cameras": ["3", "4", "trekker"],
+    "plates": [
+      {
+        "image": "Mongolia.jpg"
+      }
+    ],
+    "years": ["2015", "2016", "2017", "2018", "2019", "2021", "2024", "2025"],
+    "name": "Mongolia",
+    "alphabet": ["cyrillic"],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["red", "blue"],
+    "flagPattern": ["vertical-stripes"],
+    "roadLine": ["white-white"],
+    "uniqueLetter": []
+  },
+  "me": {
+    "cameras": ["3"],
+    "plates": [
+      {
+        "tag": "new",
+        "image": "Montenegro_new.jpg"
+      },
+      {
+        "tag": "old",
+        "image": "Montenegro_old.jpg"
+      }
+    ],
+    "years": ["2016", "2019", "2021", "2024"],
+    "name": "Montenegro",
+    "alphabet": ["cyrillic", "latin"],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["red", "yellow"],
+    "flagPattern": [],
+    "roadLine": ["white-white"],
+    "uniqueLetter": ["Ćć", "Đđ", "Šš", "Śś", "Źź", "Žž", "Џџ", "Ћћ", "Ђђ"]
+  },
+  "np": {
+    "cameras": ["trekker"],
+    "plates": [],
+    "years": ["2020"],
+    "name": "Nepal",
+    "alphabet": [],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["red", "white", "blue"],
+    "flagPattern": ["triangle"],
+    "roadLine": [],
+    "uniqueLetter": []
+  },
+  "nl": {
+    "cameras": ["2", "3", "4", "trekker"],
+    "plates": [
+      {
+        "image": "Netherlands.jpg"
+      }
+    ],
+    "years": [
+      "2009",
+      "2010",
+      "2013",
+      "2015",
+      "2016",
+      "2018",
+      "2019",
+      "2020",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "name": "Netherlands",
+    "alphabet": ["latin"],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["red", "white", "blue"],
+    "flagPattern": ["stripes"],
+    "roadLine": ["white-white"],
+    "uniqueLetter": []
+  },
+  "nz": {
+    "cameras": ["1", "2", "3", "4", "trekker"],
+    "plates": [
+      {
+        "image": "New_Zealand.jpg"
+      }
+    ],
+    "years": [
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "name": "New Zealand",
+    "alphabet": ["latin"],
+    "scenery": [],
+    "driving": ["left"],
+    "flagColor": ["blue", "white", "red"],
+    "flagPattern": ["star", "union-jack"],
+    "roadLine": [
+      "yellow-white",
+      "white-white",
+      "white-yellow",
+      "yellow-yellow"
+    ],
+    "uniqueLetter": []
+  },
+  "ng": {
+    "cameras": ["3", "4", "shit-cam", "trekker"],
+    "plates": [
+      {
+        "image": "Nigeria.jpg"
+      }
+    ],
+    "years": ["2017", "2019", "2021", "2022", "2024", "2025"],
+    "name": "Nigeria",
+    "alphabet": ["latin"],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["green", "white"],
+    "flagPattern": ["vertical-stripes"],
+    "roadLine": ["yellow-white"],
+    "uniqueLetter": []
+  },
+  "mk": {
+    "cameras": ["3"],
+    "plates": [
+      {
+        "tag": "new",
+        "image": "North_Macedonia_new.jpg"
+      },
+      {
+        "tag": "old",
+        "image": "North_Macedonia_old.jpg"
+      }
+    ],
+    "years": ["2015", "2016", "2017", "2019", "2020", "2021", "2022", "2024"],
+    "name": "North Macedonia",
+    "alphabet": ["cyrillic", "latin"],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["red", "yellow"],
+    "flagPattern": ["stripes"],
+    "roadLine": ["white-white", "yellow-yellow"],
+    "uniqueLetter": ["Çç", "Ёё", "Ќќ", "Џџ", "Гг"]
+  },
+  "no": {
+    "cameras": ["2", "3", "4", "trekker"],
+    "plates": [
+      {
+        "tag": "commercial",
+        "image": "Norway_commercial.jpg"
+      },
+      {
+        "tag": "private",
+        "image": "Norway_private.jpg"
+      }
+    ],
+    "years": [
+      "2010",
+      "2011",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2024",
+      "2025"
+    ],
+    "name": "Norway",
+    "alphabet": ["latin"],
+    "scenery": ["fjords", "mountains", "hills"],
+    "driving": ["right"],
+    "flagColor": ["red", "white", "blue"],
+    "flagPattern": ["cross"],
+    "roadLine": ["white-yellow"],
+    "uniqueLetter": ["Åå", "Ææ", "Éé", "Øø"]
+  },
+  "pk": {
+    "cameras": ["trekker"],
+    "plates": [
+      {
+        "Azad": {
+          "image": "pakistan_azad.png"
+        }
+      },
+      {
+        "Balochistan": {
+          "image": "pakistan_balochistan.png"
+        }
+      },
+      {
+        "Islamabad": {
+          "image": "pakistan_islamabad.png"
+        }
+      },
+      {
+        "Khyber": {
+          "image": "pakistan_khyber.png"
+        }
+      },
+      {
+        "Punjab": {
+          "image": "pakistan_punjab.png"
+        }
+      },
+      {
+        "Punjab": {
+          "tag": "new",
+          "image": "pakistan_punjab_new.jpg"
+        }
+      },
+      {
+        "Sindh": {
+          "image": "pakistan_sindh.png"
+        }
+      }
+    ],
+    "years": [],
+    "name": "Pakistan",
+    "alphabet": [],
+    "scenery": [],
+    "driving": ["left"],
+    "flagColor": ["green", "white"],
+    "flagPattern": ["crescent-star"],
+    "roadLine": [],
+    "uniqueLetter": []
+  },
+  "pa": {
+    "cameras": ["4"],
+    "plates": [
+      {
+        "tag": "2007",
+        "image": "panama_2007.jpg"
+      },
+      {
+        "tag": "2008",
+        "image": "panama_2008.jpg"
+      }
+    ],
+    "years": ["2023", "2024", "2025"],
+    "name": "Panama",
+    "alphabet": ["latin"],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["red", "white", "blue"],
+    "flagPattern": ["rectangles", "star"],
+    "roadLine": [],
+    "uniqueLetter": ["Áá", "Éé", "Íí", "Ññ", "Óó", "Úú"]
+  },
+  "pe": {
+    "cameras": ["3", "4", "trekker"],
+    "plates": [
+      {
+        "image": "Peru.jpg"
+      }
+    ],
+    "years": [
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2019",
+      "2020",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "name": "Peru",
+    "alphabet": ["latin"],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["red", "white"],
+    "flagPattern": ["vertical-stripes"],
+    "roadLine": ["white-white", "white-yellow"],
+    "uniqueLetter": ["Áá", "Éé", "Íí", "Ññ", "Óó", "Úú"]
+  },
+  "ph": {
+    "cameras": ["3", "4", "trekker"],
+    "plates": [
+      {
+        "tag": "new",
+        "image": "Philippines_new.jpg"
+      },
+      {
+        "tag": "old",
+        "image": "Philippines_old.jpg"
+      }
+    ],
+    "years": [
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "name": "Philippines",
+    "alphabet": [],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["blue", "red", "yellow"],
+    "flagPattern": ["stripes"],
+    "roadLine": ["white-white", "white-yellow"],
+    "uniqueLetter": []
+  },
+  "pl": {
+    "cameras": ["2", "3", "4", "trekker"],
+    "plates": [
+      {
+        "image": "Poland.jpg"
+      }
+    ],
+    "years": [
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2024",
+      "2025"
+    ],
+    "name": "Poland",
+    "alphabet": ["latin"],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["white", "red"],
+    "flagPattern": ["stripes"],
+    "roadLine": ["white-white"],
+    "uniqueLetter": ["Ąą", "Ćć", "Ęę", "Łł", "Śś", "Ww", "Żż", "Źź"]
+  },
+  "pt": {
+    "cameras": ["2", "3", "4", "trekker"],
+    "plates": [
+      {
+        "tag": "new",
+        "image": "Portugal_new.jpg"
+      },
+      {
+        "tag": "old",
+        "image": "Portugal_old.jpg"
+      }
+    ],
+    "years": [
+      "2013",
+      "2014",
+      "2015",
+      "2017",
+      "2019",
+      "2020",
+      "2021",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "name": "Portugal",
+    "alphabet": ["latin"],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["green", "red"],
+    "flagPattern": ["vertical-stripes"],
+    "roadLine": ["yellow-white", "white-white"],
+    "uniqueLetter": [
+      "Áá",
+      "Ââ",
+      "Ãã",
+      "Çç",
+      "Éé",
+      "Êê",
+      "Íí",
+      "Õõ",
+      "Óó",
+      "Ôô",
+      "Úú"
+    ]
+  },
+  "qa": {
+    "cameras": ["4", "trekker"],
+    "plates": [
+      {
+        "image": "qatar.png"
+      },
+      {
+        "tag": "police",
+        "image": "qatar_police.jpg"
+      }
+    ],
+    "years": ["2020", "2022", "2023", "2024", "2025"],
+    "name": "Qatar",
+    "alphabet": [],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["white", "maroon"],
+    "flagPattern": ["zigzag"],
+    "roadLine": ["white-yellow"],
+    "uniqueLetter": []
+  },
+  "ro": {
+    "cameras": ["2", "3", "4", "trekker"],
+    "plates": [
+      {
+        "image": "Romania.jpg"
+      }
+    ],
+    "years": [
+      "2013",
+      "2014",
+      "2017",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "name": "Romania",
+    "alphabet": ["latin"],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["blue", "yellow", "red"],
+    "flagPattern": ["vertical-stripes"],
+    "roadLine": ["white-white", "yellow-yellow"],
+    "uniqueLetter": ["Ăă", "Ââ", "Îî", "Șș", "Țț", "Ww"]
+  },
+  "ru": {
+    "cameras": ["2", "3", "4", "trekker"],
+    "plates": [
+      {
+        "image": "Russia.jpg"
+      }
+    ],
+    "years": ["2016", "2017", "2018", "2019", "2020", "2021", "2024", "2025"],
+    "name": "Russia",
+    "alphabet": ["cyrillic"],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["white", "blue", "red"],
+    "flagPattern": ["stripes"],
+    "roadLine": ["yellow-white", "white-white", "white-yellow"],
+    "uniqueLetter": ["Ёё", "Ээ", "Гг", "Ыы"]
+  },
+  "sm": {
+    "cameras": ["2", "3", "4", "trekker"],
+    "plates": [
+      {
+        "image": "San_Marino.jpg"
+      }
+    ],
+    "years": [
+      "2012",
+      "2013",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "name": "San Marino",
+    "alphabet": ["latin"],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["white", "blue"],
+    "flagPattern": ["stripes"],
+    "roadLine": ["white-white"],
+    "uniqueLetter": []
+  },
+  "sn": {
+    "cameras": ["3", "4", "trekker"],
+    "plates": [
+      {
+        "image": "Senegal.jpg"
+      }
+    ],
+    "years": ["2017", "2019", "2020", "2022", "2023", "2024", "2025"],
+    "name": "Senegal",
+    "alphabet": ["latin"],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["green", "yellow", "red"],
+    "flagPattern": ["vertical-stripes", "star"],
+    "roadLine": ["white-white"],
+    "uniqueLetter": []
+  },
+  "rs": {
+    "cameras": ["3", "4"],
+    "plates": [
+      {
+        "tag": "new",
+        "image": "Serbia_new.jpg"
+      },
+      {
+        "tag": "old",
+        "image": "Serbia_old.jpg"
+      }
+    ],
+    "years": [
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2024"
+    ],
+    "name": "Serbia",
+    "alphabet": ["cyrillic", "latin"],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["red", "blue", "white"],
+    "flagPattern": ["stripes"],
+    "roadLine": ["white-white"],
+    "uniqueLetter": ["Ćć", "Đđ", "Šš", "Žž", "Џџ", "Ћћ", "Ђђ", "Гг"]
+  },
+  "sg": {
+    "cameras": ["2", "3", "4", "trekker"],
+    "plates": [
+      {
+        "tag": "back",
+        "image": "Singapore_back.jpg"
+      },
+      {
+        "tag": "front",
+        "image": "Singapore_front.jpg"
+      }
+    ],
+    "years": ["2019", "2020", "2021", "2022", "2023", "2024"],
+    "name": "Singapore",
+    "alphabet": [],
+    "scenery": [],
+    "driving": ["left"],
+    "flagColor": ["red", "white"],
+    "flagPattern": ["crescent-star"],
+    "roadLine": ["white-white"],
+    "uniqueLetter": []
+  },
+  "sk": {
+    "cameras": ["2", "3", "4", "trekker"],
+    "plates": [
+      {
+        "image": "Slovakia.jpg"
+      }
+    ],
+    "years": [
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2018",
+      "2019",
+      "2020",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "name": "Slovakia",
+    "alphabet": [],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["white", "blue", "red"],
+    "flagPattern": ["stripes"],
+    "roadLine": ["white-white"],
+    "uniqueLetter": [
+      "Ää",
+      "Áá",
+      "Čč",
+      "Ďď",
+      "Éé",
+      "Íí",
+      "Ĺĺ",
+      "Ľľ",
+      "Ňň",
+      "Ôô",
+      "Ŕŕ",
+      "Šš",
+      "Ťť",
+      "Úú",
+      "Ww",
+      "Ýý",
+      "Žž"
+    ]
+  },
+  "si": {
+    "cameras": ["2", "3", "4", "trekker"],
+    "plates": [
+      {
+        "tag": "new",
+        "image": "Slovenia_new.jpg"
+      },
+      {
+        "tag": "old",
+        "image": "Slovenia_old.jpg"
+      },
+      {
+        "tag": "old-2",
+        "image": "Slovenia_old_2.jpg"
+      }
+    ],
+    "years": ["2013", "2014", "2017", "2019", "2020", "2022", "2023", "2024"],
+    "name": "Slovenia",
+    "alphabet": [],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["white", "blue", "red"],
+    "flagPattern": ["stripes"],
+    "roadLine": ["white-white"],
+    "uniqueLetter": ["Čč", "Šš", "Žž"]
+  },
+  "za": {
+    "cameras": ["2", "3", "4", "trekker"],
+    "plates": [
+      {
+        "tag": "eastern-cape",
+        "image": "South_Africa_Eastern_Cape.jpg"
+      },
+      {
+        "tag": "free-state",
+        "image": "South_Africa_Free_State.jpg"
+      },
+      {
+        "Gauteng": {
+          "image": "South_Africa_Gauteng.jpg"
+        }
+      },
+      {
+        "Kwazulu-natal": {
+          "image": "South_Africa_KwaZulu-Natal.jpg"
+        }
+      },
+      {
+        "Limpopo": {
+          "image": "South_Africa_Limpopo.jpg"
+        }
+      },
+      {
+        "Mpumalanga": {
+          "image": "South_Africa_Mpumalanga.jpg"
+        }
+      },
+      {
+        "tag": "north-west",
+        "image": "South_Africa_North_West.jpg"
+      },
+      {
+        "tag": "northern-cape",
+        "image": "South_Africa_Northern_Cape.jpg"
+      },
+      {
+        "tag": "western-cape",
+        "image": "South_Africa_Western_Cape.jpg"
+      }
+    ],
+    "years": [
+      "2009",
+      "2010",
+      "2011",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "name": "South Africa",
+    "alphabet": ["latin"],
+    "scenery": [],
+    "driving": ["left"],
+    "flagColor": ["black", "green", "yellow", "white", "red", "blue"],
+    "flagPattern": ["stripes"],
+    "roadLine": ["yellow-white"],
+    "uniqueLetter": []
+  },
+  "kr": {
+    "cameras": ["2", "3", "trekker"],
+    "plates": [
+      {
+        "image": "South_Korea.jpg"
+      }
+    ],
+    "years": ["2018", "2019", "2020", "2021", "2022", "2024"],
+    "name": "South Korea",
+    "alphabet": ["한국인"],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["white", "blue", "red"],
+    "flagPattern": ["circle"],
+    "roadLine": ["white-yellow"],
+    "uniqueLetter": []
+  },
+  "es": {
+    "cameras": ["2", "3", "4", "trekker"],
+    "plates": [
+      {
+        "image": "Spain.jpg"
+      }
+    ],
+    "years": [
+      "2009",
+      "2010",
+      "2011",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "name": "Spain",
+    "alphabet": ["latin"],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["red", "yellow"],
+    "flagPattern": ["stripes"],
+    "roadLine": ["yellow-white", "white-white"],
+    "uniqueLetter": ["Áá", "Éé", "Íí", "Ññ", "Óó", "Úú"]
+  },
+  "lk": {
+    "cameras": ["3", "4", "low-cam", "shit-cam"],
+    "plates": [
+      {
+        "tag": "back",
+        "image": "Sri_Lanka_back.jpg"
+      },
+      {
+        "tag": "front",
+        "image": "Sri_Lanka_front.jpg"
+      }
+    ],
+    "years": ["2016", "2019", "2020", "2021", "2022", "2023", "2024", "2025"],
+    "name": "Sri Lanka",
+    "alphabet": [],
+    "scenery": [],
+    "driving": ["left"],
+    "flagColor": ["orange", "green", "yellow", "red"],
+    "flagPattern": ["vertical-stripes"],
+    "roadLine": ["yellow-white", "white-white"],
+    "uniqueLetter": []
+  },
+  "se": {
+    "cameras": ["2", "3", "4", "trekker"],
+    "plates": [
+      {
+        "tag": "new",
+        "image": "Sweden_new.jpg"
+      },
+      {
+        "tag": "old",
+        "image": "Sweden_old.jpg"
+      }
+    ],
+    "years": [
+      "2011",
+      "2012",
+      "2013",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "name": "Sweden",
+    "alphabet": ["latin"],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["blue", "yellow"],
+    "flagPattern": ["cross"],
+    "roadLine": ["white-white"],
+    "uniqueLetter": ["Ää", "Åå", "Öö"]
+  },
+  "ch": {
+    "cameras": ["2", "3", "4", "low-cam", "trekker"],
+    "plates": [
+      {
+        "image": "Switzerland.jpg"
+      },
+      {
+        "tag": "front",
+        "image": "Switzerland_front.jpg"
+      }
+    ],
+    "years": [
+      "2011",
+      "2012",
+      "2014",
+      "2015",
+      "2017",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2024",
+      "2025"
+    ],
+    "name": "Switzerland",
+    "alphabet": [],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["red", "white"],
+    "flagPattern": ["cross"],
+    "roadLine": ["white-white"],
+    "uniqueLetter": ["Ää", "Ââ", "Àà", "Éé", "Èè", "Êê", "Її", "Öö", "Ôô", "Üü"]
+  },
+  "tw": {
+    "cameras": ["2", "3", "4", "trekker"],
+    "plates": [
+      {
+        "image": "Taiwan.jpg"
+      }
+    ],
+    "years": [
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "name": "Taiwan",
+    "alphabet": [],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["red", "blue", "white"],
+    "flagPattern": ["circle"],
+    "roadLine": ["white-yellow"],
+    "uniqueLetter": []
+  },
+  "th": {
+    "cameras": ["3", "4", "trekker"],
+    "plates": [
+      {
+        "image": "Thailand.jpg"
+      }
+    ],
+    "years": [
+      "2015",
+      "2016",
+      "2017",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2025"
+    ],
+    "name": "Thailand",
+    "alphabet": ["ชาวไทย"],
+    "scenery": [],
+    "driving": ["left"],
+    "flagColor": ["red", "white", "blue"],
+    "flagPattern": ["stripes"],
+    "roadLine": ["white-yellow"],
+    "uniqueLetter": []
+  },
+  "tn": {
+    "cameras": ["3", "trekker"],
+    "plates": [
+      {
+        "image": "Tunisia.jpg"
+      }
+    ],
+    "years": ["2016", "2019", "2020", "2021", "2022", "2023", "2024"],
+    "name": "Tunisia",
+    "alphabet": [],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["red", "white"],
+    "flagPattern": ["crescent-star"],
+    "roadLine": [],
+    "uniqueLetter": []
+  },
+  "tr": {
+    "cameras": ["3", "4", "trekker"],
+    "plates": [
+      {
+        "image": "Turkey.jpg"
+      }
+    ],
+    "years": [
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "name": "Turkey",
+    "alphabet": ["latin"],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["red", "white"],
+    "flagPattern": ["crescent-star"],
+    "roadLine": ["white-white", "white-yellow", "yellow-yellow"],
+    "uniqueLetter": ["Çç", "Ğğ", "Öö", "Óó", "Șș", "Üü"]
+  },
+  "ae": {
+    "cameras": ["3", "4"],
+    "plates": [
+      {
+        "tag": "abu-dhabi",
+        "image": "UAE_Abu_Dhabi.jpg"
+      },
+      {
+        "Ajman": {
+          "image": "UAE_Ajman.jpg"
+        }
+      },
+      {
+        "Dubai": {
+          "image": "UAE_Dubai.jpg"
+        }
+      },
+      {
+        "Fujairah": {
+          "image": "UAE_Fujairah.jpg"
+        }
+      },
+      {
+        "tag": "ras-al-khaimah",
+        "image": "UAE_Ras_Al_Khaimah.jpg"
+      },
+      {
+        "Sharjah": {
+          "image": "UAE_Sharjah.jpg"
+        }
+      },
+      {
+        "tag": "umm-al-quwain",
+        "image": "UAE_Umm_Al_Quwain.jpg"
+      }
+    ],
+    "years": [],
+    "name": "UAE",
+    "alphabet": [],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["green", "white", "black", "red"],
+    "flagPattern": ["stripes", "vertical-stripes"],
+    "roadLine": ["yellow-white", "yellow-yellow"],
+    "uniqueLetter": []
+  },
+  "gb": {
+    "cameras": ["2", "3", "4"],
+    "plates": [
+      {
+        "tag": "blank-back",
+        "image": "UK_blank_back.jpg"
+      },
+      {
+        "tag": "blank-front",
+        "image": "UK_blank_front.jpg"
+      },
+      {
+        "Cayman Islands": {
+          "tag": "back",
+          "image": "UK_CYM_back.jpg"
+        }
+      },
+      {
+        "Cayman Islands": {
+          "tag": "front",
+          "image": "UK_CYM_front.jpg"
+        }
+      },
+      {
+        "England": {
+          "tag": "back",
+          "image": "UK_ENG_back.jpg"
+        }
+      },
+      {
+        "England": {
+          "tag": "front",
+          "image": "UK_ENG_front.jpg"
+        }
+      },
+      {
+        "tag": "eu-back",
+        "image": "UK_EU_back.jpg"
+      },
+      {
+        "tag": "eu-front",
+        "image": "UK_EU_front.jpg"
+      },
+      {
+        "Great Britain": {
+          "tag": "back",
+          "image": "UK_GB_back.jpg"
+        }
+      },
+      {
+        "Great Britain": {
+          "tag": "front",
+          "image": "UK_GB_front.jpg"
+        }
+      },
+      {
+        "Scotland": {
+          "tag": "back",
+          "image": "UK_SCO_back.jpg"
+        }
+      },
+      {
+        "Scotland": {
+          "tag": "front",
+          "image": "UK_SCO_front.jpg"
+        }
+      }
+    ],
+    "years": [],
+    "name": "UK",
+    "alphabet": ["latin"],
+    "scenery": [],
+    "driving": ["left"],
+    "flagColor": ["red", "white", "blue"],
+    "flagPattern": ["union-jack"],
+    "roadLine": ["yellow-white", "white-white"],
+    "uniqueLetter": []
+  },
+  "ug": {
+    "cameras": ["3", "trekker"],
+    "plates": [
+      {
+        "tag": "back",
+        "image": "Uganda_back.jpg"
+      },
+      {
+        "tag": "front",
+        "image": "Uganda_front.jpg"
+      }
+    ],
+    "years": ["2015", "2019", "2020", "2021", "2022", "2023", "2024"],
+    "name": "Uganda",
+    "alphabet": ["latin"],
+    "scenery": [],
+    "driving": ["left"],
+    "flagColor": ["black", "yellow", "red"],
+    "flagPattern": ["stripes"],
+    "roadLine": ["white-white", "white-yellow"],
+    "uniqueLetter": []
+  },
+  "ua": {
+    "cameras": ["3"],
+    "plates": [
+      {
+        "tag": "new",
+        "image": "Ukraine_new.jpg"
+      },
+      {
+        "tag": "old",
+        "image": "Ukraine_old.jpg"
+      },
+      {
+        "tag": "public-transport",
+        "image": "UA_public_transport.jpg"
+      },
+      {
+        "tag": "public-transport-new",
+        "image": "UA_public_transport_new.png"
+      }
+    ],
+    "years": [
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2024",
+      "2025"
+    ],
+    "name": "Ukraine",
+    "alphabet": ["cyrillic"],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["blue", "yellow"],
+    "flagPattern": ["stripes"],
+    "roadLine": ["white-white"],
+    "uniqueLetter": ["Її", "Єє", "Гг", "Ґґ"]
+  },
+  "uy": {
+    "cameras": ["3", "trekker"],
+    "plates": [
+      {
+        "tag": "new",
+        "image": "Uruguay_new.jpg"
+      },
+      {
+        "tag": "old",
+        "image": "Uruguay_old.jpg"
+      }
+    ],
+    "years": ["2015", "2016", "2017", "2019", "2020", "2024"],
+    "name": "Uruguay",
+    "alphabet": [],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["blue", "white"],
+    "flagPattern": ["stripes", "sun"],
+    "roadLine": [],
+    "uniqueLetter": ["Áá", "Éé", "Íí", "Ññ", "Óó", "Úú"]
+  },
+  "vn": {
+    "cameras": ["3", "4"],
+    "plates": [
+      {
+        "image": "Vietnam.jpg"
+      }
+    ],
+    "years": ["2016", "2019", "2021", "2024", "2025"],
+    "name": "Vietnam",
+    "alphabet": [],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["red", "yellow"],
+    "flagPattern": ["star"],
+    "roadLine": [],
+    "uniqueLetter": []
+  },
+  "dz": {
+    "name": "Algeria",
+    "alphabet": ["arabic", "latin"],
+    "scenery": ["desert"],
+    "driving": ["right"],
+    "flagColor": ["green", "white", "red"],
+    "flagPattern": ["crescent-star"],
+    "roadLine": [],
+    "cameras": [],
+    "plates": [],
+    "years": [],
+    "uniqueLetter": []
+  },
+  "cz": {
+    "name": "Czechia",
+    "alphabet": ["latin"],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["white", "red", "blue"],
+    "flagPattern": ["stripes"],
+    "roadLine": ["white-white"],
+    "cameras": ["2", "3", "4"],
+    "plates": [],
+    "years": [],
+    "uniqueLetter": [
+      "Áá",
+      "Čč",
+      "Ďď",
+      "Éé",
+      "Ěě",
+      "Íí",
+      "Ňň",
+      "Óó",
+      "Řř",
+      "Šš",
+      "Ťť",
+      "Úú",
+      "Ůů",
+      "Ýý",
+      "Žž"
+    ]
+  },
+  "sv": {
+    "name": "El Salvador",
+    "alphabet": ["latin"],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["blue", "white"],
+    "flagPattern": ["stripes"],
+    "roadLine": [],
+    "cameras": [],
+    "plates": [],
+    "years": [],
+    "uniqueLetter": []
+  },
+  "ht": {
+    "name": "Haiti",
+    "alphabet": ["latin"],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["red", "blue"],
+    "flagPattern": ["stripes", "drawing"],
+    "roadLine": [],
+    "cameras": [],
+    "plates": [],
+    "years": [],
+    "uniqueLetter": []
+  },
+  "hn": {
+    "name": "Honduras",
+    "alphabet": ["latin"],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["blue", "white"],
+    "flagPattern": ["star"],
+    "roadLine": [],
+    "cameras": [],
+    "plates": [],
+    "years": [],
+    "uniqueLetter": []
+  },
+  "ma": {
+    "name": "Morocco",
+    "alphabet": ["arabic"],
+    "scenery": [],
+    "driving": ["right"],
+    "flagColor": ["red", "green"],
+    "flagPattern": ["star"],
+    "roadLine": [],
+    "cameras": [],
+    "plates": [],
+    "years": [],
+    "uniqueLetter": []
+  },
+  "us": {
+    "name": "USA",
+    "alphabet": ["latin"],
+    "scenery": ["woods", "desert", "mountains", "flat"],
+    "driving": ["right"],
+    "flagColor": ["red", "blue", "white"],
+    "flagPattern": ["stripes", "star"],
+    "roadLine": ["white-yellow"],
+    "cameras": ["1", "2", "3"],
+    "plates": [
+      {
+        "Alaska": {
+          "tag": "1997",
+          "image": "us/plate_AK_1997.jpg"
+        }
+      },
+      {
+        "Alaska": {
+          "tag": "2004",
+          "image": "us/plate_AK_2004.jpg"
+        }
+      },
+      {
+        "Alaska": {
+          "tag": "2008",
+          "image": "us/plate_AK_2008.jpg"
+        }
+      },
+      {
+        "Alaska": {
+          "tag": "2015",
+          "image": "us/plate_AK_2015.jpg"
+        }
+      },
+      {
+        "Alaska": {
+          "tag": "2018",
+          "image": "us/plate_AK_2018a.jpg",
+          "version": "A"
+        }
+      },
+      {
+        "Alaska": {
+          "tag": "2018",
+          "image": "us/plate_AK_2018b.jpg",
+          "version": "B"
+        }
+      },
+      {
+        "Alabama": {
+          "tag": "2009",
+          "image": "us/plate_AL_2009.jpg"
+        }
+      },
+      {
+        "Alabama": {
+          "tag": "2014",
+          "image": "us/plate_AL_2014.jpg"
+        }
+      },
+      {
+        "Alabama": {
+          "tag": "2022",
+          "image": "us/plate_AL_2022.jpg"
+        }
+      },
+      {
+        "Arkansas": {
+          "tag": "2006",
+          "image": "us/plate_AR_2006.jpg"
+        }
+      },
+      {
+        "Arizona": {
+          "tag": "1996",
+          "image": "us/plate_AZ_1996.jpg"
+        }
+      },
+      {
+        "California": {
+          "tag": "1994",
+          "image": "us/plate_CA_1994.jpg"
+        }
+      },
+      {
+        "Colorado": {
+          "tag": "1992",
+          "image": "us/plate_CO_1992.jpg"
+        }
+      },
+      {
+        "Colorado": {
+          "tag": "2000",
+          "image": "us/plate_CO_2000.jpg"
+        }
+      },
+      {
+        "Connecticut": {
+          "tag": "2000",
+          "image": "us/plate_CT_2000.jpg"
+        }
+      },
+      {
+        "Delaware": {
+          "tag": "1969",
+          "image": "us/plate_DE_1969.jpg"
+        }
+      },
+      {
+        "Florida": {
+          "tag": "2003",
+          "image": "us/plate_FL_2003.jpg"
+        }
+      },
+      {
+        "Georgia": {
+          "tag": "2012",
+          "image": "us/plate_GA_2012a.jpg",
+          "version": "A"
+        }
+      },
+      {
+        "Georgia": {
+          "tag": "2012",
+          "image": "us/plate_GA_2012b.jpg",
+          "version": "B"
+        }
+      },
+      {
+        "Hawaii": {
+          "tag": "1991",
+          "image": "us/plate_HI_1991.jpg"
+        }
+      },
+      {
+        "Iowa": {
+          "tag": "1997",
+          "image": "us/plate_IA_1997.jpg"
+        }
+      },
+      {
+        "Iowa": {
+          "tag": "2018",
+          "image": "us/plate_IA_2018.jpg"
+        }
+      },
+      {
+        "Idaho": {
+          "tag": "1997",
+          "image": "us/plate_ID_1997.jpg"
+        }
+      },
+      {
+        "Illinois": {
+          "tag": "2001",
+          "image": "us/plate_IL_2001.jpg"
+        }
+      },
+      {
+        "Illinois": {
+          "tag": "2017",
+          "image": "us/plate_IL_2017.jpg"
+        }
+      },
+      {
+        "Indiana": {
+          "tag": "2008",
+          "image": "us/plate_IN_2008.jpg"
+        }
+      },
+      {
+        "Indiana": {
+          "tag": "2012",
+          "image": "us/plate_IN_2012.jpg"
+        }
+      },
+      {
+        "Indiana": {
+          "tag": "2013",
+          "image": "us/plate_IN_2013.jpg"
+        }
+      },
+      {
+        "Indiana": {
+          "tag": "2017",
+          "image": "us/plate_IN_2017.jpg"
+        }
+      },
+      {
+        "Kansas": {
+          "tag": "2001",
+          "image": "us/plate_KS_2001.jpg"
+        }
+      },
+      {
+        "Kansas": {
+          "tag": "2007",
+          "image": "us/plate_KS_2007.jpg"
+        }
+      },
+      {
+        "Kentucky": {
+          "tag": "2005",
+          "image": "us/plate_KY_2005.jpg"
+        }
+      },
+      {
+        "Louisiana": {
+          "tag": "2005",
+          "image": "us/plate_LA_2005.jpg"
+        }
+      },
+      {
+        "Massachusetts": {
+          "tag": "1993",
+          "image": "us/plate_MA_1993.jpg"
+        }
+      },
+      {
+        "Maryland": {
+          "tag": "2010",
+          "image": "us/plate_MD_2010.jpg"
+        }
+      },
+      {
+        "Maryland": {
+          "tag": "2016",
+          "image": "us/plate_MD_2016.jpg"
+        }
+      },
+      {
+        "Maine": {
+          "tag": "1999",
+          "image": "us/plate_ME_1999.jpg"
+        }
+      },
+      {
+        "Michigan": {
+          "tag": "1983",
+          "image": "us/plate_MI_1983.jpg"
+        }
+      },
+      {
+        "Michigan": {
+          "tag": "2007",
+          "image": "us/plate_MI_2007a.jpg",
+          "version": "A"
+        }
+      },
+      {
+        "Michigan": {
+          "tag": "2007",
+          "image": "us/plate_MI_2007b.jpg",
+          "version": "B"
+        }
+      },
+      {
+        "Michigan": {
+          "tag": "2013",
+          "image": "us/plate_MI_2013.jpg"
+        }
+      },
+      {
+        "Michigan": {
+          "tag": "2014",
+          "image": "us/plate_MI_2014.jpg"
+        }
+      },
+      {
+        "Minnesota": {
+          "tag": "1987",
+          "image": "us/plate_MN_1987.jpg"
+        }
+      },
+      {
+        "Missouri": {
+          "tag": "1997",
+          "image": "us/plate_MO_1997.jpg"
+        }
+      },
+      {
+        "Missouri": {
+          "tag": "2008",
+          "image": "us/plate_MO_2008.jpg"
+        }
+      },
+      {
+        "Mississippi": {
+          "tag": "2012",
+          "image": "us/plate_MS_2012.jpg"
+        }
+      },
+      {
+        "Mississippi": {
+          "tag": "2019",
+          "image": "us/plate_MS_2019.jpg"
+        }
+      },
+      {
+        "Montana": {
+          "tag": "2006",
+          "image": "us/plate_MT_2006.jpg"
+        }
+      },
+      {
+        "Montana": {
+          "tag": "2010",
+          "image": "us/plate_MT_2010.jpg"
+        }
+      },
+      {
+        "North Carolina": {
+          "tag": "1982",
+          "image": "us/plate_NC_1982.jpg"
+        }
+      },
+      {
+        "North Dakota": {
+          "tag": "1993",
+          "image": "us/plate_ND_1993.jpg"
+        }
+      },
+      {
+        "North Dakota": {
+          "tag": "2015",
+          "image": "us/plate_ND_2015.jpg"
+        }
+      },
+      {
+        "Nebraska": {
+          "tag": "2011",
+          "image": "us/plate_NE_2011.jpg"
+        }
+      },
+      {
+        "Nebraska": {
+          "tag": "2017",
+          "image": "us/plate_NE_2017.jpg"
+        }
+      },
+      {
+        "Nebraska": {
+          "tag": "2023",
+          "image": "us/plate_NE_2023.jpg"
+        }
+      },
+      {
+        "New Hampshire": {
+          "tag": "1999",
+          "image": "us/plate_NH_1999.jpg"
+        }
+      },
+      {
+        "New Jersey": {
+          "tag": "1992",
+          "image": "us/plate_NJ_1992.jpg"
+        }
+      },
+      {
+        "New Mexico": {
+          "tag": "1990",
+          "image": "us/plate_NM_1990.jpg"
+        }
+      },
+      {
+        "New Mexico": {
+          "tag": "1999",
+          "image": "us/plate_NM_1999.jpg"
+        }
+      },
+      {
+        "New Mexico": {
+          "tag": "2016",
+          "image": "us/plate_NM_2016.jpg"
+        }
+      },
+      {
+        "New Mexico": {
+          "tag": "2017",
+          "image": "us/plate_NM_2017.jpg"
+        }
+      },
+      {
+        "Nevada": {
+          "tag": "1982",
+          "image": "us/plate_NV_1982.jpg"
+        }
+      },
+      {
+        "Nevada": {
+          "tag": "2001",
+          "image": "us/plate_NV_2001.jpg"
+        }
+      },
+      {
+        "Nevada": {
+          "tag": "2016",
+          "image": "us/plate_NV_2016.jpg"
+        }
+      },
+      {
+        "New York": {
+          "tag": "2001",
+          "image": "us/plate_NY_2001.jpg"
+        }
+      },
+      {
+        "New York": {
+          "tag": "2010",
+          "image": "us/plate_NY_2010.jpg"
+        }
+      },
+      {
+        "Ohio": {
+          "tag": "2001",
+          "image": "us/plate_OH_2001.jpg"
+        }
+      },
+      {
+        "Ohio": {
+          "tag": "2009",
+          "image": "us/plate_OH_2009.jpg"
+        }
+      },
+      {
+        "Ohio": {
+          "tag": "2013",
+          "image": "us/plate_OH_2013.jpg"
+        }
+      },
+      {
+        "Ohio": {
+          "tag": "2021",
+          "image": "us/plate_OH_2021.jpg"
+        }
+      },
+      {
+        "Oklahoma": {
+          "tag": "2009",
+          "image": "us/plate_OK_2009.jpg"
+        }
+      },
+      {
+        "Oklahoma": {
+          "tag": "2017",
+          "image": "us/plate_OK_2017.jpg"
+        }
+      },
+      {
+        "Oregon": {
+          "tag": "1989",
+          "image": "us/plate_OR_1989.jpg"
+        }
+      },
+      {
+        "Pennsylvania": {
+          "tag": "2004",
+          "image": "us/plate_PA_2004.jpg"
+        }
+      },
+      {
+        "Rhode Island": {
+          "tag": "1996",
+          "image": "us/plate_RI_1996.jpg"
+        }
+      },
+      {
+        "South Carolina": {
+          "tag": "2008",
+          "image": "us/plate_SC_2008.jpg"
+        }
+      },
+      {
+        "South Carolina": {
+          "tag": "2016",
+          "image": "us/plate_SC_2016.jpg"
+        }
+      },
+      {
+        "South Dakota": {
+          "tag": "2006",
+          "image": "us/plate_SD_2006.jpg"
+        }
+      },
+      {
+        "Tennessee": {
+          "tag": "2006",
+          "image": "us/plate_TN_2006.jpg"
+        }
+      },
+      {
+        "Tennessee": {
+          "tag": "2022",
+          "image": "us/plate_TN_2022.jpg"
+        }
+      },
+      {
+        "Texas": {
+          "tag": "2009",
+          "image": "us/plate_TX_2009.jpg"
+        }
+      },
+      {
+        "Texas": {
+          "tag": "2012",
+          "image": "us/plate_TX_2012.jpg"
+        }
+      },
+      {
+        "Utah": {
+          "tag": "2007",
+          "image": "us/plate_UT_2007a.jpg",
+          "version": "A"
+        }
+      },
+      {
+        "Utah": {
+          "tag": "2007",
+          "image": "us/plate_UT_2007b.jpg",
+          "version": "B"
+        }
+      },
+      {
+        "Virginia": {
+          "tag": "2008",
+          "image": "us/plate_VA_2008.jpg"
+        }
+      },
+      {
+        "Vermont": {
+          "tag": "1990",
+          "image": "us/plate_VT_1990.jpg"
+        }
+      },
+      {
+        "Washington": {
+          "tag": "1998",
+          "image": "us/plate_WA_1998.jpg"
+        }
+      },
+      {
+        "Wisconsin": {
+          "tag": "2000",
+          "image": "us/plate_WI_2000.jpg"
+        }
+      },
+      {
+        "West Virginia": {
+          "tag": "1995",
+          "image": "us/plate_WV_1995.jpg"
+        }
+      },
+      {
+        "Wyoming": {
+          "tag": "2016",
+          "image": "us/plate_WY_2016.jpg"
+        }
+      }
+    ],
+    "years": [],
+    "uniqueLetter": []
+  }
+}

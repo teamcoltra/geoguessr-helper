@@ -1,0 +1,738 @@
+[
+  { "Aland": { "image": "aland.jpg" } },
+  { "Albania": { "tag": "new", "image": "Albania_new.jpg" } },
+  { "Albania": { "tag": "old", "image": "Albania_old.jpg" } },
+  { "American Samoa": { "tag": "new", "image": "American_Samoa_new.jpg" } },
+  { "American Samoa": { "tag": "old", "image": "American_Samoa_old.jpg" } },
+  { "Andorra": { "image": "Andorra.jpg" } },
+  { "Argentina": { "tag": "new", "image": "Argentina_new.jpg" } },
+  { "Argentina": { "tag": "old", "image": "Argentina_old.jpg" } },
+  {
+    "Australia": {
+      "Australian Capital Territory": { "image": "Australia_ACT.jpg" }
+    }
+  },
+  { "Australia": { "New South Wales": { "image": "Australia_NSW.jpg" } } },
+  { "Australia": { "Northern Territory": { "image": "Australia_NT.jpg" } } },
+  { "Australia": { "Queensland": { "image": "Australia_Queensland.jpg" } } },
+  { "Australia": { "South Australia": { "image": "Australia_SA.jpg" } } },
+  { "Australia": { "Tasmania": { "image": "Australia_Tasmania.jpg" } } },
+  { "Australia": { "Victoria": { "image": "Australia_Victoria.jpg" } } },
+  { "Australia": { "Western Australia": { "image": "Australia_WA.jpg" } } },
+  { "Austria": { "image": "Austria.jpg" } },
+  { "Bangladesh": { "image": "Bangladesh.jpg" } },
+  { "Belgium": { "tag": "new", "image": "Belgium_new.jpg" } },
+  { "Belgium": { "tag": "old", "image": "Belgium_old.jpg" } },
+  { "Bermuda": { "image": "bermuda.png" } },
+  { "Bhutan": { "image": "Bhutan.jpg" } },
+  { "Bolivia": { "image": "Bolivia.jpg" } },
+  { "Bosnia": { "image": "bosnia.jpg" } },
+  { "Botswana": { "tag": "back", "image": "Botswana_back.jpg" } },
+  { "Botswana": { "tag": "front", "image": "Botswana_front.jpg" } },
+  { "Brazil": { "tag": "new", "image": "Brazil_new.jpg" } },
+  { "Brazil": { "tag": "old", "image": "Brazil_old.jpg" } },
+  { "Bulgaria": { "tag": "new", "image": "Bulgaria_new.jpg" } },
+  { "Bulgaria": { "tag": "old", "image": "Bulgaria_old.jpg" } },
+  { "Cambodia": { "image": "Cambodia.jpg" } },
+  { "Canada": { "Alberta": { "image": "Canada_Alberta.jpg" } } },
+  { "Canada": { "British Columbia": { "image": "Canada_BC.jpg" } } },
+  { "Canada": { "Manitoba": { "image": "Canada_Manitoba.jpg" } } },
+  { "Canada": { "New Brunswick": { "image": "Canada_NB.jpg" } } },
+  { "Canada": { "Newfoundland and Labrador": { "image": "Canada_NL.jpg" } } },
+  { "Canada": { "Nova Scotia": { "image": "Canada_NS.jpg" } } },
+  { "Canada": { "Northwest Territories": { "image": "Canada_NT.jpg" } } },
+  { "Canada": { "Nunavut": { "image": "Canada_Nunavut.jpg" } } },
+  { "Canada": { "Ontario": { "image": "Canada_Ontario.jpg" } } },
+  { "Canada": { "Prince Edward Island": { "image": "Canada_PEI.jpg" } } },
+  { "Canada": { "Quebec": { "image": "Canada_Quebec.jpg" } } },
+  { "Canada": { "Saskatchewan": { "image": "Canada_Saskatchewan.jpg" } } },
+  { "Canada": { "Yukon": { "image": "Canada_Yukon.jpg" } } },
+  { "Chile": { "image": "Chile.jpg" } },
+  { "Christmas Island": { "image": "Christmas_Island.jpg" } },
+  { "Cocos": { "image": "cocos.jpg" } },
+  { "Colombia": { "image": "Colombia.jpg" } },
+  { "Croatia": { "tag": "new", "image": "Croatia_new.jpg" } },
+  { "Croatia": { "tag": "old", "image": "Croatia_old.jpg" } },
+  { "Curacao": { "image": "Curacao.jpg" } },
+  { "Czech Republic": { "image": "Czech_Republic.jpg" } },
+  { "Denmark": { "tag": "commercial", "image": "Denmark_commercial.jpg" } },
+  { "Denmark": { "tag": "parrot", "image": "Denmark_parrot.jpg" } },
+  { "Denmark": { "tag": "private", "image": "Denmark_private.jpg" } },
+  { "Dominican Republic": { "image": "Dominican_Republic.jpg" } },
+  { "Ecuador": { "image": "Ecuador.jpg" } },
+  { "Estonia": { "image": "Estonia.jpg" } },
+  { "Eswatini": { "image": "Eswatini.jpg" } },
+  { "Faroe Islands": { "image": "Faroe_Islands.jpg" } },
+  { "Finland": { "image": "Finland.jpg" } },
+  { "France": { "tag": "new", "image": "France_new.jpg" } },
+  { "France": { "tag": "old-back", "image": "France_old_back.jpg" } },
+  { "France": { "tag": "old-front", "image": "France_old_front.jpg" } },
+  { "Germany": { "image": "Germany.jpg" } },
+  { "Ghana": { "image": "Ghana.jpg" } },
+  { "Gibraltar": { "tag": "back", "image": "Gibraltar_back.jpg" } },
+  { "Gibraltar": { "tag": "front", "image": "Gibraltar_front.jpg" } },
+  { "Greece": { "image": "Greece.jpg" } },
+  { "Greenland": { "image": "Greenland.jpg" } },
+  { "Guam": { "tag": "new", "image": "Guam_new.jpg" } },
+  { "Guam": { "tag": "old", "image": "Guam_old.jpg" } },
+  { "Guatemala": { "tag": "new", "image": "Guatemala_new.jpg" } },
+  { "Guatemala": { "tag": "old", "image": "Guatemala_old.jpg" } },
+  { "Hungary": { "image": "Hungary.jpg" } },
+  { "Iceland": { "image": "Iceland.jpg" } },
+  { "India": { "image": "India.jpg" } },
+  { "India": { "tag": "2", "image": "India_2.jpg" } },
+  { "Indonesia": { "image": "Indonesia.jpg" } },
+  { "Indonesia": { "tag": "new", "image": "indonesia_new.svg" } },
+  { "Ireland": { "image": "Ireland.jpg" } },
+  { "Isle Of Man": { "tag": "back", "image": "Isle_of_Man_back.jpg" } },
+  { "Isle Of Man": { "tag": "front", "image": "Isle_of_Man_front.jpg" } },
+  { "Israel": { "image": "Israel.jpg" } },
+  { "Italy": { "tag": "new", "image": "Italy_new.jpg" } },
+  { "Italy": { "tag": "old", "image": "Italy_old.jpg" } },
+  { "Japan": { "tag": "white", "image": "Japan_white.jpg" } },
+  { "Japan": { "tag": "yellow", "image": "Japan_yellow.jpg" } },
+  { "Jersey": { "tag": "back", "image": "Jersey_back.jpg" } },
+  { "Jersey": { "tag": "front", "image": "Jersey_front.jpg" } },
+  { "Jordan": { "image": "Jordan.jpg" } },
+  { "Kazakhstan": { "image": "kazakhstan.gif" } },
+  { "Kazakhstan": { "tag": "old", "image": "kazakhstan_old.png" } },
+  { "Kenya": { "tag": "back", "image": "Kenya_back.jpg" } },
+  { "Kenya": { "tag": "front", "image": "Kenya_front.jpg" } },
+  { "Kyrgyzstan": { "tag": "new", "image": "Kyrgyzstan_new.jpg" } },
+  { "Kyrgyzstan": { "tag": "old", "image": "Kyrgyzstan_old.jpg" } },
+  { "Laos": { "image": "Laos.jpg" } },
+  { "Latvia": { "image": "Latvia.jpg" } },
+  { "Lebanon": { "tag": "eu", "image": "lebanon_eu.png" } },
+  { "Lebanon": { "tag": "na", "image": "lebanon_na.png" } },
+  { "Lesotho": { "image": "Lesotho.jpg" } },
+  { "Liechtenstein": { "image": "liechtenstein.jpg" } },
+  { "Lithuania": { "image": "Lithuania.jpg" } },
+  { "Luxembourg": { "image": "Luxembourg.jpg" } },
+  { "Madagascar": { "image": "Madagascar.jpg" } },
+  { "Malaysia": { "image": "Malaysia.jpg" } },
+  { "Malta": { "image": "Malta.jpg" } },
+  { "Monaco": { "tag": "back", "image": "Monaco_back.jpg" } },
+  { "Monaco": { "tag": "front", "image": "Monaco_front.jpg" } },
+  { "Mongolia": { "image": "Mongolia.jpg" } },
+  { "Montenegro": { "tag": "new", "image": "Montenegro_new.jpg" } },
+  { "Montenegro": { "tag": "old", "image": "Montenegro_old.jpg" } },
+  { "Namibia": { "image": "namibia.jpg" } },
+  { "Netherlands": { "image": "Netherlands.jpg" } },
+  { "New Zealand": { "image": "New_Zealand.jpg" } },
+  { "Nigeria": { "image": "Nigeria.jpg" } },
+  { "North Macedonia": { "tag": "new", "image": "North_Macedonia_new.jpg" } },
+  { "North Macedonia": { "tag": "old", "image": "North_Macedonia_old.jpg" } },
+  { "Northern Mariana Islands": { "image": "Northern_Mariana_Islands.jpg" } },
+  { "Norway": { "tag": "commercial", "image": "Norway_commercial.jpg" } },
+  { "Norway": { "tag": "private", "image": "Norway_private.jpg" } },
+  { "Pakistan": { "Azad": { "image": "pakistan_azad.png" } } },
+  { "Pakistan": { "Balochistan": { "image": "pakistan_balochistan.png" } } },
+  { "Pakistan": { "Islamabad": { "image": "pakistan_islamabad.png" } } },
+  { "Pakistan": { "Khyber": { "image": "pakistan_khyber.png" } } },
+  { "Pakistan": { "Punjab": { "image": "pakistan_punjab.png" } } },
+  {
+    "Pakistan": {
+      "Punjab": { "tag": "new", "image": "pakistan_punjab_new.jpg" }
+    }
+  },
+  { "Pakistan": { "Sindh": { "image": "pakistan_sindh.png" } } },
+  { "Panama": { "tag": "2007", "image": "panama_2007.jpg" } },
+  { "Panama": { "tag": "2008", "image": "panama_2008.jpg" } },
+  { "Peru": { "image": "Peru.jpg" } },
+  { "Philippines": { "tag": "new", "image": "Philippines_new.jpg" } },
+  { "Philippines": { "tag": "old", "image": "Philippines_old.jpg" } },
+  { "Poland": { "image": "Poland.jpg" } },
+  { "Portugal": { "tag": "new", "image": "Portugal_new.jpg" } },
+  { "Portugal": { "tag": "old", "image": "Portugal_old.jpg" } },
+  { "Puerto Rico": { "tag": "new", "image": "Puerto_Rico_new.jpg" } },
+  { "Puerto Rico": { "tag": "old", "image": "Puerto_Rico_old.jpg" } },
+  { "Puerto Rico": { "tag": "old2", "image": "Puerto_Rico_old2.jpg" } },
+  { "Qatar": { "image": "qatar.png" } },
+  { "Qatar": { "tag": "police", "image": "qatar_police.jpg" } },
+  { "Romania": { "image": "Romania.jpg" } },
+  { "Russia": { "image": "Russia.jpg" } },
+  { "Rwanda": { "tag": "back", "image": "Rwanda_back.jpg" } },
+  { "Rwanda": { "tag": "front", "image": "Rwanda_front.jpg" } },
+  { "San Marino": { "image": "San_Marino.jpg" } },
+  { "Sao": { "tag": "tome", "image": "sao_tome.gif" } },
+  { "Senegal": { "image": "Senegal.jpg" } },
+  { "Serbia": { "tag": "new", "image": "Serbia_new.jpg" } },
+  { "Serbia": { "tag": "old", "image": "Serbia_old.jpg" } },
+  { "Singapore": { "tag": "back", "image": "Singapore_back.jpg" } },
+  { "Singapore": { "tag": "front", "image": "Singapore_front.jpg" } },
+  { "Slovakia": { "image": "Slovakia.jpg" } },
+  { "Slovenia": { "tag": "new", "image": "Slovenia_new.jpg" } },
+  { "Slovenia": { "tag": "old", "image": "Slovenia_old.jpg" } },
+  { "Slovenia": { "tag": "old-2", "image": "Slovenia_old_2.jpg" } },
+  {
+    "South Africa": {
+      "tag": "eastern-cape",
+      "image": "South_Africa_Eastern_Cape.jpg"
+    }
+  },
+  {
+    "South Africa": {
+      "tag": "free-state",
+      "image": "South_Africa_Free_State.jpg"
+    }
+  },
+  { "South Africa": { "Gauteng": { "image": "South_Africa_Gauteng.jpg" } } },
+  {
+    "South Africa": {
+      "Kwazulu-natal": { "image": "South_Africa_KwaZulu-Natal.jpg" }
+    }
+  },
+  { "South Africa": { "Limpopo": { "image": "South_Africa_Limpopo.jpg" } } },
+  {
+    "South Africa": { "Mpumalanga": { "image": "South_Africa_Mpumalanga.jpg" } }
+  },
+  {
+    "South Africa": {
+      "tag": "north-west",
+      "image": "South_Africa_North_West.jpg"
+    }
+  },
+  {
+    "South Africa": {
+      "tag": "northern-cape",
+      "image": "South_Africa_Northern_Cape.jpg"
+    }
+  },
+  {
+    "South Africa": {
+      "tag": "western-cape",
+      "image": "South_Africa_Western_Cape.jpg"
+    }
+  },
+  { "South Korea": { "image": "South_Korea.jpg" } },
+  { "Spain": { "image": "Spain.jpg" } },
+  { "Sri Lanka": { "tag": "back", "image": "Sri_Lanka_back.jpg" } },
+  { "Sri Lanka": { "tag": "front", "image": "Sri_Lanka_front.jpg" } },
+  { "Sweden": { "tag": "new", "image": "Sweden_new.jpg" } },
+  { "Sweden": { "tag": "old", "image": "Sweden_old.jpg" } },
+  { "Switzerland": { "image": "Switzerland.jpg" } },
+  { "Switzerland": { "tag": "front", "image": "Switzerland_front.jpg" } },
+  { "Taiwan": { "image": "Taiwan.jpg" } },
+  { "Thailand": { "image": "Thailand.jpg" } },
+  { "Tunisia": { "image": "Tunisia.jpg" } },
+  { "Turkey": { "image": "Turkey.jpg" } },
+  { "UA": { "tag": "public-transport", "image": "UA_public_transport.gif" } },
+  {
+    "UA": {
+      "tag": "public-transport-new",
+      "image": "UA_public_transport_new.png"
+    }
+  },
+  { "UAE": { "tag": "abu-dhabi", "image": "UAE_Abu_Dhabi.jpg" } },
+  { "UAE": { "Ajman": { "image": "UAE_Ajman.jpg" } } },
+  { "UAE": { "Dubai": { "image": "UAE_Dubai.jpg" } } },
+  { "UAE": { "Fujairah": { "image": "UAE_Fujairah.jpg" } } },
+  { "UAE": { "tag": "ras-al-khaimah", "image": "UAE_Ras_Al_Khaimah.jpg" } },
+  { "UAE": { "Sharjah": { "image": "UAE_Sharjah.jpg" } } },
+  { "UAE": { "tag": "umm-al-quwain", "image": "UAE_Umm_Al_Quwain.jpg" } },
+  { "Uganda": { "tag": "back", "image": "Uganda_back.jpg" } },
+  { "Uganda": { "tag": "front", "image": "Uganda_front.jpg" } },
+  { "UK": { "tag": "blank-back", "image": "UK_blank_back.jpg" } },
+  { "UK": { "tag": "blank-front", "image": "UK_blank_front.jpg" } },
+  { "UK": { "Cayman Islands": { "tag": "back", "image": "UK_CYM_back.jpg" } } },
+  {
+    "UK": { "Cayman Islands": { "tag": "front", "image": "UK_CYM_front.jpg" } }
+  },
+  { "UK": { "England": { "tag": "back", "image": "UK_ENG_back.jpg" } } },
+  { "UK": { "England": { "tag": "front", "image": "UK_ENG_front.jpg" } } },
+  { "UK": { "tag": "eu-back", "image": "UK_EU_back.jpg" } },
+  { "UK": { "tag": "eu-front", "image": "UK_EU_front.jpg" } },
+  { "UK": { "Great Britain": { "tag": "back", "image": "UK_GB_back.jpg" } } },
+  { "UK": { "Great Britain": { "tag": "front", "image": "UK_GB_front.jpg" } } },
+  { "UK": { "Scotland": { "tag": "back", "image": "UK_SCO_back.jpg" } } },
+  { "UK": { "Scotland": { "tag": "front", "image": "UK_SCO_front.jpg" } } },
+  { "Ukraine": { "tag": "new", "image": "Ukraine_new.jpg" } },
+  { "Ukraine": { "tag": "old", "image": "Ukraine_old.jpg" } },
+  {
+    "United States": {
+      "Alaska": { "tag": "1997", "image": "us/plate_AK_1997.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Alaska": { "tag": "2004", "image": "us/plate_AK_2004.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Alaska": { "tag": "2008", "image": "us/plate_AK_2008.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Alaska": { "tag": "2015", "image": "us/plate_AK_2015.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Alaska": {
+        "tag": "2018",
+        "image": "us/plate_AK_2018a.jpg",
+        "version": "A"
+      }
+    }
+  },
+  {
+    "United States": {
+      "Alaska": {
+        "tag": "2018",
+        "image": "us/plate_AK_2018b.jpg",
+        "version": "B"
+      }
+    }
+  },
+  {
+    "United States": {
+      "Alabama": { "tag": "2009", "image": "us/plate_AL_2009.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Alabama": { "tag": "2014", "image": "us/plate_AL_2014.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Alabama": { "tag": "2022", "image": "us/plate_AL_2022.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Arkansas": { "tag": "2006", "image": "us/plate_AR_2006.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Arizona": { "tag": "1996", "image": "us/plate_AZ_1996.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "California": { "tag": "1994", "image": "us/plate_CA_1994.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Colorado": { "tag": "1992", "image": "us/plate_CO_1992.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Colorado": { "tag": "2000", "image": "us/plate_CO_2000.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Connecticut": { "tag": "2000", "image": "us/plate_CT_2000.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Delaware": { "tag": "1969", "image": "us/plate_DE_1969.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Florida": { "tag": "2003", "image": "us/plate_FL_2003.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Georgia": {
+        "tag": "2012",
+        "image": "us/plate_GA_2012a.jpg",
+        "version": "A"
+      }
+    }
+  },
+  {
+    "United States": {
+      "Georgia": {
+        "tag": "2012",
+        "image": "us/plate_GA_2012b.jpg",
+        "version": "B"
+      }
+    }
+  },
+  {
+    "United States": {
+      "Hawaii": { "tag": "1991", "image": "us/plate_HI_1991.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Iowa": { "tag": "1997", "image": "us/plate_IA_1997.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Iowa": { "tag": "2018", "image": "us/plate_IA_2018.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Idaho": { "tag": "1997", "image": "us/plate_ID_1997.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Illinois": { "tag": "2001", "image": "us/plate_IL_2001.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Illinois": { "tag": "2017", "image": "us/plate_IL_2017.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Indiana": { "tag": "2008", "image": "us/plate_IN_2008.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Indiana": { "tag": "2012", "image": "us/plate_IN_2012.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Indiana": { "tag": "2013", "image": "us/plate_IN_2013.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Indiana": { "tag": "2017", "image": "us/plate_IN_2017.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Kansas": { "tag": "2001", "image": "us/plate_KS_2001.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Kansas": { "tag": "2007", "image": "us/plate_KS_2007.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Kentucky": { "tag": "2005", "image": "us/plate_KY_2005.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Louisiana": { "tag": "2005", "image": "us/plate_LA_2005.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Massachusetts": { "tag": "1993", "image": "us/plate_MA_1993.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Maryland": { "tag": "2010", "image": "us/plate_MD_2010.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Maryland": { "tag": "2016", "image": "us/plate_MD_2016.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Maine": { "tag": "1999", "image": "us/plate_ME_1999.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Michigan": { "tag": "1983", "image": "us/plate_MI_1983.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Michigan": {
+        "tag": "2007",
+        "image": "us/plate_MI_2007a.jpg",
+        "version": "A"
+      }
+    }
+  },
+  {
+    "United States": {
+      "Michigan": {
+        "tag": "2007",
+        "image": "us/plate_MI_2007b.jpg",
+        "version": "B"
+      }
+    }
+  },
+  {
+    "United States": {
+      "Michigan": { "tag": "2013", "image": "us/plate_MI_2013.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Michigan": { "tag": "2014", "image": "us/plate_MI_2014.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Minnesota": { "tag": "1987", "image": "us/plate_MN_1987.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Missouri": { "tag": "1997", "image": "us/plate_MO_1997.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Missouri": { "tag": "2008", "image": "us/plate_MO_2008.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Mississippi": { "tag": "2012", "image": "us/plate_MS_2012.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Mississippi": { "tag": "2019", "image": "us/plate_MS_2019.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Montana": { "tag": "2006", "image": "us/plate_MT_2006.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Montana": { "tag": "2010", "image": "us/plate_MT_2010.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "North Carolina": { "tag": "1982", "image": "us/plate_NC_1982.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "North Dakota": { "tag": "1993", "image": "us/plate_ND_1993.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "North Dakota": { "tag": "2015", "image": "us/plate_ND_2015.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Nebraska": { "tag": "2011", "image": "us/plate_NE_2011.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Nebraska": { "tag": "2017", "image": "us/plate_NE_2017.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Nebraska": { "tag": "2023", "image": "us/plate_NE_2023.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "New Hampshire": { "tag": "1999", "image": "us/plate_NH_1999.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "New Jersey": { "tag": "1992", "image": "us/plate_NJ_1992.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "New Mexico": { "tag": "1990", "image": "us/plate_NM_1990.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "New Mexico": { "tag": "1999", "image": "us/plate_NM_1999.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "New Mexico": { "tag": "2016", "image": "us/plate_NM_2016.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "New Mexico": { "tag": "2017", "image": "us/plate_NM_2017.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Nevada": { "tag": "1982", "image": "us/plate_NV_1982.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Nevada": { "tag": "2001", "image": "us/plate_NV_2001.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Nevada": { "tag": "2016", "image": "us/plate_NV_2016.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "New York": { "tag": "2001", "image": "us/plate_NY_2001.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "New York": { "tag": "2010", "image": "us/plate_NY_2010.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Ohio": { "tag": "2001", "image": "us/plate_OH_2001.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Ohio": { "tag": "2009", "image": "us/plate_OH_2009.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Ohio": { "tag": "2013", "image": "us/plate_OH_2013.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Ohio": { "tag": "2021", "image": "us/plate_OH_2021.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Oklahoma": { "tag": "2009", "image": "us/plate_OK_2009.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Oklahoma": { "tag": "2017", "image": "us/plate_OK_2017.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Oregon": { "tag": "1989", "image": "us/plate_OR_1989.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Pennsylvania": { "tag": "2004", "image": "us/plate_PA_2004.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Rhode Island": { "tag": "1996", "image": "us/plate_RI_1996.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "South Carolina": { "tag": "2008", "image": "us/plate_SC_2008.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "South Carolina": { "tag": "2016", "image": "us/plate_SC_2016.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "South Dakota": { "tag": "2006", "image": "us/plate_SD_2006.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Tennessee": { "tag": "2006", "image": "us/plate_TN_2006.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Tennessee": { "tag": "2022", "image": "us/plate_TN_2022.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Texas": { "tag": "2009", "image": "us/plate_TX_2009.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Texas": { "tag": "2012", "image": "us/plate_TX_2012.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Utah": {
+        "tag": "2007",
+        "image": "us/plate_UT_2007a.jpg",
+        "version": "A"
+      }
+    }
+  },
+  {
+    "United States": {
+      "Utah": {
+        "tag": "2007",
+        "image": "us/plate_UT_2007b.jpg",
+        "version": "B"
+      }
+    }
+  },
+  {
+    "United States": {
+      "Virginia": { "tag": "2008", "image": "us/plate_VA_2008.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Vermont": { "tag": "1990", "image": "us/plate_VT_1990.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Washington": { "tag": "1998", "image": "us/plate_WA_1998.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Wisconsin": { "tag": "2000", "image": "us/plate_WI_2000.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "West Virginia": { "tag": "1995", "image": "us/plate_WV_1995.jpg" }
+    }
+  },
+  {
+    "United States": {
+      "Wyoming": { "tag": "2016", "image": "us/plate_WY_2016.jpg" }
+    }
+  },
+  { "Uruguay": { "tag": "new", "image": "Uruguay_new.jpg" } },
+  { "Uruguay": { "tag": "old", "image": "Uruguay_old.jpg" } },
+  { "US": { "Virgin Islands": { "tag": "new", "image": "US_VI_new.jpg" } } },
+  { "US": { "Virgin Islands": { "tag": "old", "image": "US_VI_old.jpg" } } },
+  { "Vietnam": { "image": "Vietnam.jpg" } }
+]

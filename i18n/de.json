@@ -1,0 +1,31 @@
+{
+  "ui": {
+    "Filters": "Filter",
+    "match": "Übereinstimmung",
+    "matches": "Übereinstimmungen"
+  },
+  "facets": {
+    "cameras": "Kamerageneration",
+    "driving": "Fahrtrichtung",
+    "roadLine": "Fahrbahnmarkierungen (Außen/Innen)",
+    "flagColor": "Flaggenfarbe",
+    "flagPattern": "Flaggenmuster",
+    "alphabet": "Alphabet",
+    "scenery": "Landschaft",
+    "uniqueLetter": "Zeichen"
+  },
+  "values": {
+    "left": "Links",
+    "right": "Rechts",
+    "white-white": "Weiß–Weiß",
+    "white-yellow": "Weiß–Gelb",
+    "yellow-white": "Gelb–Weiß",
+    "yellow-yellow": "Gelb–Gelb",
+    "trekker": "Trekker",
+    "shit-cam": "Schrottkamera",
+    "low-cam": "Tiefkamera",
+    "union-jack": "Union Jack",
+    "vertical-stripes": "Vertikale Streifen",
+    "crescent-star": "Halbmond + Stern"
+  }
+}

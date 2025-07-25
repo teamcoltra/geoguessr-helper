@@ -1,0 +1,33 @@
+{
+  "ui": {
+    "Filters": "Filtres",
+    "match": "correspondance",
+    "matches": "correspondances",
+    "Clear all": "Tout effacer"
+  },
+  "facets": {
+    "cameras": "Génération de caméra",
+    "driving": "Côté de conduite",
+    "roadLine": "Lignes de route",
+    "flagColor": "Couleur du drapeau",
+    "flagPattern": "Motif du drapeau",
+    "alphabet": "Alphabet",
+    "scenery": "Paysage",
+    "uniqueLetter": "Caractère",
+    "years": "Années"
+  },
+  "values": {
+    "left": "Gauche",
+    "right": "Droite",
+    "white-white": "Blanc–Blanc",
+    "white-yellow": "Blanc–Jaune",
+    "yellow-white": "Jaune–Blanc",
+    "yellow-yellow": "Jaune–Jaune",
+    "trekker": "Trekker",
+    "shit-cam": "Caméra basse qualité",
+    "low-cam": "Caméra basse",
+    "union-jack": "Union Jack",
+    "vertical-stripes": "Rayures verticales",
+    "crescent-star": "Croissant + Étoile"
+  }
+}

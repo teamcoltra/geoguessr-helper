@@ -1,0 +1,33 @@
+{
+  "ui": {
+    "Filters": "Filters",
+    "match": "match",
+    "matches": "matches",
+    "Clear all": "Clear all"
+  },
+  "facets": {
+    "cameras": "Camera generation",
+    "driving": "Driving side",
+    "roadLine": "Road lines (Outter/Inner)",
+    "flagColor": "Flag colour",
+    "flagPattern": "Flag pattern",
+    "alphabet": "Alphabet",
+    "scenery": "Scenery",
+    "uniqueLetter": "Character",
+    "years": "Copyright Year"
+  },
+  "values": {
+    "left": "Left",
+    "right": "Right",
+    "white-white": "White–White",
+    "white-yellow": "White–Yellow",
+    "yellow-white": "Yellow–White",
+    "yellow-yellow": "Yellow–Yellow",
+    "trekker": "Trekker",
+    "shit-cam": "Shit Cam",
+    "low-cam": "Low Cam",
+    "union-jack": "Union Jack",
+    "vertical-stripes": "Vertical stripes",
+    "crescent-star": "Crescent + Star"
+  }
+}

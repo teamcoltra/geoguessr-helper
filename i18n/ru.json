@@ -1,0 +1,33 @@
+{
+  "ui": {
+    "Filters": "Фильтры",
+    "match": "совпадение",
+    "matches": "совпадения",
+    "Clear all": "Очистить всё"
+  },
+  "facets": {
+    "cameras": "Поколение камер",
+    "driving": "Сторона движения",
+    "roadLine": "Дорожная разметка",
+    "flagColor": "Цвет флага",
+    "flagPattern": "Узор флага",
+    "alphabet": "Алфавит",
+    "scenery": "Пейзаж",
+    "uniqueLetter": "Символ",
+    "years": "Годы"
+  },
+  "values": {
+    "left": "Левостороннее",
+    "right": "Правостороннее",
+    "white-white": "Белая–Белая",
+    "white-yellow": "Белая–Желтая",
+    "yellow-white": "Желтая–Белая",
+    "yellow-yellow": "Желтая–Желтая",
+    "trekker": "Треккер",
+    "shit-cam": "Плохая камера",
+    "low-cam": "Низкая камера",
+    "union-jack": "Юнион Джек",
+    "vertical-stripes": "Вертикальные полосы",
+    "crescent-star": "Полумесяц + Звезда"
+  }
+}

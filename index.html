@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>GeoGuessr Helper</title>
+
+        <!-- Bootswatch (Bootstrap 5) — choose any theme you like -->
+        <link
+            rel="stylesheet"
+            href="//cdn.jsdelivr.net/npm/bootswatch@5.3.x/dist/brite/bootstrap.min.css"
+        />
+
+        <!-- Leaflet -->
+        <link
+            rel="stylesheet"
+            href="//unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        />
+
+        <style>
+            /* Tiny helpers only; everything else is Bootstrap */
+            #map {
+                height: 60vh;
+                min-height: 380px;
+            }
+            .leaflet-container {
+                background: transparent !important;
+            }
+            .facet-group {
+                margin-bottom: 1rem;
+            }
+            .facet-title {
+                font-weight: 600;
+                margin-bottom: 0.5rem;
+            }
+            .chip {
+                margin: 0.25rem 0.4rem 0.25rem 0;
+            }
+            /* Custom outline styles - light theme */
+            :root[data-bs-theme="light"] .btn-outline-white {
+                color: #222;
+                border-color: #fff;
+                background: transparent;
+            }
+            :root[data-bs-theme="light"] .btn-outline-black {
+                color: #fff;
+                border-color: #222;
+                background: transparent;
+            }
+            :root[data-bs-theme="light"]
+                .btn-check:checked
+                + .btn-outline-white {
+                color: #fff;
+                background-color: #222;
+                border-color: #222;
+            }
+            /* Custom outline styles - dark theme */
+            :root[data-bs-theme="dark"] .btn-outline-white {
+                color: #fff;
+                border-color: #222;
+                background: transparent;
+            }
+            :root[data-bs-theme="dark"] .btn-outline-black {
+                color: #222;
+                border-color: #fff;
+                background: transparent;
+            }
+            :root[data-bs-theme="dark"]
+                .btn-check:checked
+                + .btn-outline-white {
+                color: #222;
+                background-color: #fff;
+                border-color: #fff;
+            }
+            .results-counter {
+                font-size: 0.9rem;
+                color: var(--bs-secondary);
+            }
+            .offcanvas-body {
+                padding-bottom: 5rem;
+            }
+            .sticky-actions {
+                position: sticky;
+                bottom: 0;
+                background: var(--bs-body-bg);
+                padding: 0.5rem 1rem;
+                border-top: 1px solid var(--bs-border-color);
+            }
+            /* Font size for filter inputs on desktop */
+            @media (min-width: 992px) {
+                #filters-desktop .chip,
+                #filters-desktop .facet-title,
+                #filters-desktop .btn-check + label {
+                    font-size: 15px !important;
+                }
+            }
+            /* Font size for filter inputs in mobile offcanvas */
+            @media (max-width: 991.98px) {
+                #filters-mobile .chip,
+                #filters-mobile .facet-title,
+                #filters-mobile .btn-check + label {
+                    font-size: 20px !important;
+                }
+            }
+
+            .logo-text {
+                font-weight: bold;
+                font-size: 20px;
+                color: white;
+                text-align: center;
+                text-transform: uppercase;
+
+                text-shadow:
+                    -2px -2px 0 black,
+                    2px -2px 0 black,
+                    -2px 2px 0 black,
+                    2px 2px 0 black,
+                    -3px 0px 0 black,
+                    3px 0px 0 black,
+                    0px -3px 0 black,
+                    0px 3px 0 black;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand logo-text" href="#">GeoGuessr Helper</a>
+
+                <div class="d-flex gap-2">
+                    <button
+                        id="themeToggle"
+                        class="btn btn-warning me-2"
+                        title="Toggle Dark/Light Mode"
+                    >
+                        <span id="themeIcon">☀️</span>
+                    </button>
+                    <select
+                        id="lang-select"
+                        class="form-select form-select-sm me-2"
+                        style="width: auto"
+                    >
+                        <option value="en" selected>EN</option>
+                        <option value="ru">RU</option>
+                        <option value="fr">FR</option>
+                        <option value="de">DE</option>
+                        <option value="es">ES</option>
+                    </select>
+
+                    <button
+                        class="btn btn-outline-light btn-sm d-inline d-lg-none"
+                        type="button"
+                        data-bs-toggle="offcanvas"
+                        data-bs-target="#filtersCanvas"
+                        aria-controls="filtersCanvas"
+                    >
+                        Filters
+                    </button>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid py-3">
+            <!-- Desktop filters (show on lg+) -->
+            <div class="row d-none d-lg-flex">
+                <aside class="col-lg-3">
+                    <div id="filters-desktop"></div>
+                </aside>
+                <main class="col-lg-9">
+                    <div
+                        class="d-flex justify-content-between align-items-center mb-2"
+                    >
+                        <div class="results-counter" id="results-counter"></div>
+                        <div class="btn-group">
+                            <button
+                                id="btn-clear"
+                                class="btn btn-outline-secondary btn-sm"
+                            >
+                                Clear all
+                            </button>
+                        </div>
+                    </div>
+                    <div id="map" class="mb-3"></div>
+                    <div id="matched-list"></div>
+                </main>
+            </div>
+
+            <!-- Mobile layout (filters offcanvas) -->
+            <div class="d-lg-none">
+                <div
+                    class="d-flex justify-content-between align-items-center my-2"
+                >
+                    <div class="results-counter" id="results-counter-mob"></div>
+                    <button
+                        id="btn-clear-mob"
+                        class="btn btn-outline-secondary btn-sm"
+                    >
+                        Clear all
+                    </button>
+                </div>
+                <div id="map" class="mb-3"></div>
+                <div id="matched-list-mob"></div>
+            </div>
+        </div>
+
+        <!-- Offcanvas for filters on mobile -->
+        <div
+            class="offcanvas offcanvas-start"
+            tabindex="-1"
+            id="filtersCanvas"
+            aria-labelledby="filtersCanvasLabel"
+        >
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="filtersCanvasLabel">Filters</h5>
+                <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="offcanvas"
+                    aria-label="Close"
+                ></button>
+            </div>
+            <div class="offcanvas-body" id="filters-mobile"></div>
+            <!-- Removed sticky-actions and Apply button -->
+        </div>
+
+        <!-- Country Details Modal -->
+        <div
+            class="modal fade"
+            id="countryModal"
+            tabindex="-1"
+            aria-labelledby="countryModalLabel"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="countryModalLabel"></h5>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div class="modal-body" id="countryModalBody">
+                        <!-- Country details will be injected here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bootstrap / Leaflet / App -->
+        <script src="//cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="//unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+        <script type="module" src="js/app.js"></script>
+        <!-- Cheating Warning Modal -->
+        <div
+            class="modal fade"
+            id="cheatWarningModal"
+            tabindex="-1"
+            aria-labelledby="cheatWarningLabel"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header bg-danger">
+                        <h5 class="modal-title fw-bold" id="cheatWarningLabel">
+                            Don't use this for cheating
+                        </h5>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div class="modal-body">
+                        <p class="fw-bold text-danger mb-3">
+                            Seriously, please don't use this tool for
+                            cheating—that's not what it was designed to do and
+                            it makes you a dick if you do it.
+                        </p>
+                        <p>
+                            This tool was designed to help you learn metas and
+                            what metas can help you reduce the map most
+                            efficiently.
+                        </p>
+                        <p>
+                            If you want to track your scores and see how well
+                            you're doing, be sure to go to GeoStatsr and track
+                            your stats!
+                        </p>
+                        <a
+                            href="https://geostatsr.com"
+                            target="_blank"
+                            rel="noopener"
+                            class="btn btn-success btn-lg w-100 my-3 fw-bold"
+                            style="font-size: 1.5rem"
+                        >
+                            Track your stats on GeoStatsr
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="bg-light text-center py-3 mt-4 border-top">
+            <div>
+                <small>
+                    Fork this project on
+                    <a
+                        href="https://github.com/teamcoltra/geoguessr-helper"
+                        target="_blank"
+                        rel="noopener"
+                        >GitHub</a
+                    >.<br />
+                    All map data is in <code>geoguessr-metas.json</code>. If you
+                    find any wrong or incomplete information, you can update it
+                    there!
+                </small>
+            </div>
+        </footer>
+        <script>
+            // Show cheat warning modal only once per browser
+            document.addEventListener("DOMContentLoaded", function () {
+                if (!localStorage.getItem("cheatWarningDismissed")) {
+                    var cheatModal = new bootstrap.Modal(
+                        document.getElementById("cheatWarningModal"),
+                    );
+                    cheatModal.show();
+                    document
+                        .getElementById("cheatWarningModal")
+                        .addEventListener("hidden.bs.modal", function () {
+                            localStorage.setItem(
+                                "cheatWarningDismissed",
+                                "true",
+                            );
+                        });
+                }
+            });
+        </script>
+    </body>
+</html>
