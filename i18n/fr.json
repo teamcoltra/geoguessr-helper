@@ -14,7 +14,9 @@
     "alphabet": "Alphabet",
     "scenery": "Paysage",
     "uniqueLetter": "Caractère",
-    "years": "Années"
+    "years": "Année de copyright",
+    "vehicleType": "Type de véhicule",
+    "vehicleColor": "Couleur du véhicule"
   },
   "values": {
     "left": "Gauche",
@@ -28,6 +30,36 @@
     "low-cam": "Caméra basse",
     "union-jack": "Union Jack",
     "vertical-stripes": "Rayures verticales",
-    "crescent-star": "Croissant + Étoile"
+    "crescent-star": "Croissant + Étoile",
+    "black": "Noir",
+    "blue": "Bleu",
+    "blue stripe": "Rayure bleue",
+    "circle": "Cercle",
+    "cross": "Croix",
+    "diagonal-stripe": "Rayure diagonale",
+    "drawing": "Dessin",
+    "rectangles": "Rectangles",
+    "star": "Étoile",
+    "stripes": "Rayures",
+    "sun": "Soleil",
+    "triangle": "Triangle",
+    "zigzag": "Zigzag",
+    "desert": "Désert",
+    "fjords": "Fjords",
+    "flat": "Plat",
+    "hill": "Colline",
+    "mountains": "Montagnes",
+    "snow": "Neige",
+    "tropical": "Tropical",
+    "woods": "Bois",
+    "brown": "Marron",
+    "gray": "Gris",
+    "red": "Rouge",
+    "silver": "Argent",
+    "white": "Blanc",
+    "yellow": "Jaune",
+    "green": "Vert",
+    "maroon": "Bordeaux",
+    "orange": "Orange"
   }
 }

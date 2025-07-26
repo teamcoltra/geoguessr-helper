@@ -14,7 +14,9 @@
     "alphabet": "Алфавит",
     "scenery": "Пейзаж",
     "uniqueLetter": "Символ",
-    "years": "Годы"
+    "years": "Год авторского права",
+    "vehicleType": "Тип транспорта",
+    "vehicleColor": "Цвет транспорта"
   },
   "values": {
     "left": "Левостороннее",
@@ -28,6 +30,36 @@
     "low-cam": "Низкая камера",
     "union-jack": "Юнион Джек",
     "vertical-stripes": "Вертикальные полосы",
-    "crescent-star": "Полумесяц + Звезда"
+    "crescent-star": "Полумесяц + Звезда",
+    "circle": "Круг",
+    "cross": "Крест",
+    "diagonal-stripe": "Диагональная полоса",
+    "drawing": "Рисунок",
+    "rectangles": "Прямоугольники",
+    "star": "Звезда",
+    "stripes": "Полосы",
+    "sun": "Солнце",
+    "triangle": "Треугольник",
+    "zigzag": "Зигзаг",
+    "black": "Чёрный",
+    "blue": "Синий",
+    "blue stripe": "Синяя полоса",
+    "brown": "Коричневый",
+    "gray": "Серый",
+    "red": "Красный",
+    "silver": "Серебристый",
+    "white": "Белый",
+    "yellow": "Жёлтый",
+    "green": "Зелёный",
+    "maroon": "Бордовый",
+    "orange": "Оранжевый",
+    "desert": "Пустыня",
+    "fjords": "Фьорды",
+    "flat": "Равнина",
+    "hill": "Холмы",
+    "mountains": "Горы",
+    "snow": "Снег",
+    "tropical": "Тропики",
+    "woods": "Леса"
   }
 }
