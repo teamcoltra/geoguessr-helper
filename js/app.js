@@ -12,8 +12,9 @@ const FACETS = [
   { key: "flagPattern", type: "array" },
   { key: "alphabet", type: "array" },
   { key: "scenery", type: "array" },
-  { key: "uniqueLetter", type: "array" }, // this can be huge; still supported
-  { key: "years", type: "array" }, // added years facet
+  { key: "uniqueLetter", type: "array" },
+  { key: "vehicleType", type: "array" },
+  { key: "vehicleColor", type: "array" },
 ];
 
 let metas = {};
@@ -453,6 +454,8 @@ function renderCountryList(matches) {
               ${renderFacetLine("alphabet", c.alphabet)}
               ${renderFacetLine("scenery", c.scenery)}
               ${renderFacetLine("uniqueLetter", c.uniqueLetter)}
+              ${renderFacetLine("vehicleType", c.vehicleType)}
+              ${renderFacetLine("vehicleColor", c.vehicleColor)}
             </div>
           </div>
         </div>

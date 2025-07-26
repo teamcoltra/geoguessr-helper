@@ -32,7 +32,7 @@
     "flagColor": ["red", "black"],
     "flagPattern": [],
     "roadLine": ["white-white", "white-yellow"],
-    "uniqueLetter": ["Çç", "Ёё"]
+    "uniqueLetter": ["\u00c7\u00e7", "\u0401\u0451"]
   },
   "ad": {
     "cameras": ["2", "3"],
@@ -93,7 +93,16 @@
     "flagColor": ["blue", "white"],
     "flagPattern": ["stripes", "sun"],
     "roadLine": ["white-white", "white-yellow"],
-    "uniqueLetter": ["Áá", "Éé", "Íí", "Ññ", "Óó", "Úú"]
+    "uniqueLetter": [
+      "\u00c1\u00e1",
+      "\u00c9\u00e9",
+      "\u00cd\u00ed",
+      "\u00d1\u00f1",
+      "\u00d3\u00f3",
+      "\u00da\u00fa"
+    ],
+    "vehicleType": ["car"],
+    "vehicleColor": ["black", "blue", "blue stipe", "white"]
   },
   "au": {
     "cameras": ["1", "2", "3", "4", "trekker"],
@@ -190,7 +199,7 @@
     "flagColor": ["red", "white"],
     "flagPattern": ["stripes"],
     "roadLine": ["white-white"],
-    "uniqueLetter": ["Ää", "Öö", "Üü"]
+    "uniqueLetter": ["\u00c4\u00e4", "\u00d6\u00f6", "\u00dc\u00fc"]
   },
   "bd": {
     "cameras": ["3", "4", "shit-cam", "trekker"],
@@ -201,13 +210,17 @@
     ],
     "years": ["2015", "2016", "2019", "2020", "2022", "2023", "2024", "2025"],
     "name": "Bangladesh",
-    "alphabet": ["বাংলা বর্ণমালা বা লিপি"],
+    "alphabet": [
+      "\u09ac\u09be\u0982\u09b2\u09be \u09ac\u09b0\u09cd\u09a3\u09ae\u09be\u09b2\u09be \u09ac\u09be \u09b2\u09bf\u09aa\u09bf"
+    ],
     "scenery": ["flat", "tropical"],
     "driving": ["left"],
     "flagColor": ["green", "red"],
     "flagPattern": ["circle"],
     "roadLine": ["white-white"],
-    "uniqueLetter": []
+    "uniqueLetter": [],
+    "vehicleType": ["truck"],
+    "vehicleColor": []
   },
   "be": {
     "cameras": ["2", "3", "4", "trekker"],
@@ -229,7 +242,15 @@
     "flagColor": ["black", "yellow", "red"],
     "flagPattern": ["vertical-stripes"],
     "roadLine": ["white-white"],
-    "uniqueLetter": ["Ââ", "Àà", "Éé", "Èè", "Êê", "Її", "Ôô"]
+    "uniqueLetter": [
+      "\u00c2\u00e2",
+      "\u00c0\u00e0",
+      "\u00c9\u00e9",
+      "\u00c8\u00e8",
+      "\u00ca\u00ea",
+      "\u0407\u0457",
+      "\u00d4\u00f4"
+    ]
   },
   "bt": {
     "cameras": ["3"],
@@ -240,7 +261,9 @@
     ],
     "years": ["2014", "2016", "2017", "2018", "2019", "2021", "2022", "2024"],
     "name": "Bhutan",
-    "alphabet": ["གྲོ་བ་མི་རིགསགདབང་ཆ་འདྲ་མཏམད་སྒྱེཝ་་ག་།"],
+    "alphabet": [
+      "\u0f42\u0fb2\u0f7c\u0f0b\u0f56\u0f0b\u0f58\u0f72\u0f0b\u0f62\u0f72\u0f42\u0f66\u0f42\u0f51\u0f56\u0f44\u0f0b\u0f46\u0f0b\u0f60\u0f51\u0fb2\u0f0b\u0f58\u0f4f\u0f58\u0f51\u0f0b\u0f66\u0f92\u0fb1\u0f7a\u0f5d\u0f0b\u0f0b\u0f42\u0f0b\u0f0d"
+    ],
     "scenery": [],
     "driving": ["left"],
     "flagColor": ["orange", "yellow", "white"],
@@ -273,7 +296,16 @@
     "flagColor": ["red", "yellow", "green"],
     "flagPattern": ["stripes"],
     "roadLine": ["white-white", "white-yellow"],
-    "uniqueLetter": ["Áá", "Éé", "Íí", "Ññ", "Óó", "Úú"]
+    "uniqueLetter": [
+      "\u00c1\u00e1",
+      "\u00c9\u00e9",
+      "\u00cd\u00ed",
+      "\u00d1\u00f1",
+      "\u00d3\u00f3",
+      "\u00da\u00fa"
+    ],
+    "vehicleType": ["car", "truck"],
+    "vehicleColor": ["white", "black"]
   },
   "bw": {
     "cameras": ["3"],
@@ -306,7 +338,9 @@
     "flagColor": ["blue", "white", "black"],
     "flagPattern": ["stripes"],
     "roadLine": ["yellow-white"],
-    "uniqueLetter": []
+    "uniqueLetter": [],
+    "vehicleType": ["car"],
+    "vehicleColor": []
   },
   "br": {
     "cameras": ["2", "3", "4", "trekker"],
@@ -345,18 +379,20 @@
     "flagPattern": [],
     "roadLine": ["white-white", "white-yellow"],
     "uniqueLetter": [
-      "Áá",
-      "Ââ",
-      "Ãã",
-      "Çç",
-      "Éé",
-      "Êê",
-      "Íí",
-      "Õõ",
-      "Óó",
-      "Ôô",
-      "Úú"
-    ]
+      "\u00c1\u00e1",
+      "\u00c2\u00e2",
+      "\u00c3\u00e3",
+      "\u00c7\u00e7",
+      "\u00c9\u00e9",
+      "\u00ca\u00ea",
+      "\u00cd\u00ed",
+      "\u00d5\u00f5",
+      "\u00d3\u00f3",
+      "\u00d4\u00f4",
+      "\u00da\u00fa"
+    ],
+    "vehicleType": ["car"],
+    "vehicleColor": ["white"]
   },
   "bg": {
     "cameras": ["3", "4", "trekker"],
@@ -391,7 +427,7 @@
     "flagColor": ["white", "green", "red"],
     "flagPattern": ["stripes"],
     "roadLine": ["white-white"],
-    "uniqueLetter": ["Гг", "Ъъ"]
+    "uniqueLetter": ["\u0413\u0433", "\u042a\u044a"]
   },
   "kh": {
     "cameras": ["3", "shit-cam", "trekker"],
@@ -414,13 +450,17 @@
       "2025"
     ],
     "name": "Cambodia",
-    "alphabet": ["ប្រទេសកម្ពុជា ភ្នំពេញ"],
+    "alphabet": [
+      "\u1794\u17d2\u179a\u1791\u17c1\u179f\u1780\u1798\u17d2\u1796\u17bb\u1787\u17b6 \u1797\u17d2\u1793\u17c6\u1796\u17c1\u1789"
+    ],
     "scenery": [],
     "driving": ["right"],
     "flagColor": ["red", "blue", "white"],
     "flagPattern": ["stripes"],
     "roadLine": ["white-yellow"],
-    "uniqueLetter": []
+    "uniqueLetter": [],
+    "vehicleType": ["car"],
+    "vehicleColor": ["white", "yellow"]
   },
   "ca": {
     "cameras": ["1", "2", "3", "4", "trekker"],
@@ -517,7 +557,15 @@
     "flagColor": ["red", "white"],
     "flagPattern": ["stripes"],
     "roadLine": ["white-yellow"],
-    "uniqueLetter": ["Ââ", "Àà", "Éé", "Èè", "Êê", "Її", "Ôô"]
+    "uniqueLetter": [
+      "\u00c2\u00e2",
+      "\u00c0\u00e0",
+      "\u00c9\u00e9",
+      "\u00c8\u00e8",
+      "\u00ca\u00ea",
+      "\u0407\u0457",
+      "\u00d4\u00f4"
+    ]
   },
   "cl": {
     "cameras": ["2", "3", "4", "trekker"],
@@ -539,14 +587,23 @@
       "white-yellow",
       "yellow-yellow"
     ],
-    "uniqueLetter": ["Áá", "Éé", "Íí", "Ññ", "Óó", "Úú"]
+    "uniqueLetter": [
+      "\u00c1\u00e1",
+      "\u00c9\u00e9",
+      "\u00cd\u00ed",
+      "\u00d1\u00f1",
+      "\u00d3\u00f3",
+      "\u00da\u00fa"
+    ],
+    "vehicleType": ["car"],
+    "vehicleColor": ["white", "black"]
   },
   "cn": {
     "cameras": ["trekker"],
     "plates": [],
     "years": [],
     "name": "China",
-    "alphabet": ["汉语漢語"],
+    "alphabet": ["\u6c49\u8bed\u6f22\u8a9e"],
     "scenery": [],
     "driving": ["right"],
     "flagColor": ["red", "yellow"],
@@ -569,7 +626,16 @@
     "flagColor": ["yellow", "blue", "red"],
     "flagPattern": ["stripes"],
     "roadLine": ["white-yellow"],
-    "uniqueLetter": ["Áá", "Éé", "Íí", "Ññ", "Óó", "Úú"]
+    "uniqueLetter": [
+      "\u00c1\u00e1",
+      "\u00c9\u00e9",
+      "\u00cd\u00ed",
+      "\u00d1\u00f1",
+      "\u00d3\u00f3",
+      "\u00da\u00fa"
+    ],
+    "vehicleType": ["car"],
+    "vehicleColor": ["white", "black"]
   },
   "cr": {
     "cameras": ["trekker"],
@@ -582,7 +648,14 @@
     "flagColor": ["red", "white", "blue"],
     "flagPattern": ["stripes"],
     "roadLine": [],
-    "uniqueLetter": ["Áá", "Éé", "Íí", "Ññ", "Óó", "Úú"]
+    "uniqueLetter": [
+      "\u00c1\u00e1",
+      "\u00c9\u00e9",
+      "\u00cd\u00ed",
+      "\u00d1\u00f1",
+      "\u00d3\u00f3",
+      "\u00da\u00fa"
+    ]
   },
   "hr": {
     "cameras": ["2", "3", "4", "trekker"],
@@ -616,7 +689,13 @@
     "flagColor": ["red", "white", "blue"],
     "flagPattern": ["stripes"],
     "roadLine": ["white-white"],
-    "uniqueLetter": ["Ćć", "Čč", "Đđ", "Šš", "Žž"]
+    "uniqueLetter": [
+      "\u0106\u0107",
+      "\u010c\u010d",
+      "\u0110\u0111",
+      "\u0160\u0161",
+      "\u017d\u017e"
+    ]
   },
   "dk": {
     "cameras": ["2", "3", "4", "trekker"],
@@ -657,7 +736,7 @@
     "flagColor": ["red", "white"],
     "flagPattern": ["cross"],
     "roadLine": ["white-white"],
-    "uniqueLetter": ["Åå", "Ææ", "Øø"]
+    "uniqueLetter": ["\u00c5\u00e5", "\u00c6\u00e6", "\u00d8\u00f8"]
   },
   "do": {
     "cameras": ["3"],
@@ -674,7 +753,16 @@
     "flagColor": ["red", "white", "blue"],
     "flagPattern": ["cross"],
     "roadLine": [],
-    "uniqueLetter": ["Áá", "Éé", "Íí", "Ññ", "Óó", "Úú"]
+    "uniqueLetter": [
+      "\u00c1\u00e1",
+      "\u00c9\u00e9",
+      "\u00cd\u00ed",
+      "\u00d1\u00f1",
+      "\u00d3\u00f3",
+      "\u00da\u00fa"
+    ],
+    "vehicleType": ["truck"],
+    "vehicleColor": ["white", "black"]
   },
   "ec": {
     "cameras": ["3", "4", "shit-cam", "trekker"],
@@ -702,7 +790,16 @@
     "flagColor": ["yellow", "blue", "red"],
     "flagPattern": ["stripes"],
     "roadLine": ["white-yellow"],
-    "uniqueLetter": ["Áá", "Éé", "Íí", "Ññ", "Óó", "Úú"]
+    "uniqueLetter": [
+      "\u00c1\u00e1",
+      "\u00c9\u00e9",
+      "\u00cd\u00ed",
+      "\u00d1\u00f1",
+      "\u00d3\u00f3",
+      "\u00da\u00fa"
+    ],
+    "vehicleType": ["truck"],
+    "vehicleColor": ["white"]
   },
   "eg": {
     "cameras": ["trekker"],
@@ -745,7 +842,14 @@
     "flagColor": ["blue", "black", "white"],
     "flagPattern": ["stripes"],
     "roadLine": ["white-white"],
-    "uniqueLetter": ["Ää", "Öö", "Õõ", "Šš", "Üü", "Žž"]
+    "uniqueLetter": [
+      "\u00c4\u00e4",
+      "\u00d6\u00f6",
+      "\u00d5\u00f5",
+      "\u0160\u0161",
+      "\u00dc\u00fc",
+      "\u017d\u017e"
+    ]
   },
   "sz": {
     "cameras": ["3"],
@@ -772,7 +876,9 @@
     "flagColor": ["blue", "yellow", "red"],
     "flagPattern": ["stripes"],
     "roadLine": ["yellow-white"],
-    "uniqueLetter": []
+    "uniqueLetter": [],
+    "vehicleType": ["car"],
+    "vehicleColor": []
   },
   "fi": {
     "cameras": ["2", "3", "4", "shit-cam", "trekker"],
@@ -789,7 +895,7 @@
     "flagColor": ["blue", "white"],
     "flagPattern": ["cross"],
     "roadLine": ["white-white", "white-yellow"],
-    "uniqueLetter": ["Ää", "Åå", "Öö"]
+    "uniqueLetter": ["\u00c4\u00e4", "\u00c5\u00e5", "\u00d6\u00f6"]
   },
   "fr": {
     "cameras": ["1", "2", "3", "4", "trekker"],
@@ -831,7 +937,15 @@
     "flagColor": ["blue", "white", "red"],
     "flagPattern": ["vertical-stripes"],
     "roadLine": ["white-white"],
-    "uniqueLetter": ["Ââ", "Àà", "Éé", "Èè", "Êê", "Її", "Ôô"]
+    "uniqueLetter": [
+      "\u00c2\u00e2",
+      "\u00c0\u00e0",
+      "\u00c9\u00e9",
+      "\u00c8\u00e8",
+      "\u00ca\u00ea",
+      "\u0407\u0457",
+      "\u00d4\u00f4"
+    ]
   },
   "de": {
     "cameras": ["2", "3", "4", "trekker"],
@@ -848,7 +962,7 @@
     "flagColor": ["black", "red", "yellow"],
     "flagPattern": ["stripes"],
     "roadLine": ["white-white", "yellow-yellow"],
-    "uniqueLetter": ["Ää", "Öö", "Üü"]
+    "uniqueLetter": ["\u00c4\u00e4", "\u00d6\u00f6", "\u00dc\u00fc"]
   },
   "gh": {
     "cameras": ["3", "trekker"],
@@ -865,7 +979,9 @@
     "flagColor": ["red", "yellow", "green"],
     "flagPattern": ["stripes"],
     "roadLine": ["white-white"],
-    "uniqueLetter": []
+    "uniqueLetter": [],
+    "vehicleType": ["truck"],
+    "vehicleColor": ["white"]
   },
   "gr": {
     "cameras": ["2", "3", "4", "trekker"],
@@ -917,7 +1033,16 @@
     "flagColor": ["blue", "white"],
     "flagPattern": ["stripes"],
     "roadLine": ["white-yellow"],
-    "uniqueLetter": ["Áá", "Éé", "Íí", "Ññ", "Óó", "Úú"]
+    "uniqueLetter": [
+      "\u00c1\u00e1",
+      "\u00c9\u00e9",
+      "\u00cd\u00ed",
+      "\u00d1\u00f1",
+      "\u00d3\u00f3",
+      "\u00da\u00fa"
+    ],
+    "vehicleType": ["truck"],
+    "vehicleColor": ["gray"]
   },
   "hu": {
     "cameras": ["2", "3", "4", "trekker"],
@@ -945,7 +1070,17 @@
     "flagColor": ["red", "white", "green"],
     "flagPattern": ["stripes"],
     "roadLine": ["white-white"],
-    "uniqueLetter": ["Áá", "Éé", "Íí", "Öö", "Óó", "Őő", "Üü", "Úú", "Űű"]
+    "uniqueLetter": [
+      "\u00c1\u00e1",
+      "\u00c9\u00e9",
+      "\u00cd\u00ed",
+      "\u00d6\u00f6",
+      "\u00d3\u00f3",
+      "\u0150\u0151",
+      "\u00dc\u00fc",
+      "\u00da\u00fa",
+      "\u0170\u0171"
+    ]
   },
   "is": {
     "cameras": ["3", "4", "trekker"],
@@ -973,7 +1108,17 @@
     "flagColor": ["blue", "white", "red"],
     "flagPattern": ["cross"],
     "roadLine": ["white-white"],
-    "uniqueLetter": ["Áá", "Ææ", "Ðð", "Éé", "Íí", "Öö", "Óó", "Úú", "Þþ"]
+    "uniqueLetter": [
+      "\u00c1\u00e1",
+      "\u00c6\u00e6",
+      "\u00d0\u00f0",
+      "\u00c9\u00e9",
+      "\u00cd\u00ed",
+      "\u00d6\u00f6",
+      "\u00d3\u00f3",
+      "\u00da\u00fa",
+      "\u00de\u00fe"
+    ]
   },
   "in": {
     "cameras": ["3", "4", "shit-cam", "trekker"],
@@ -988,13 +1133,17 @@
     ],
     "years": ["2013", "2014", "2020", "2023", "2024", "2025"],
     "name": "India",
-    "alphabet": ["मानक हिन्दी"],
+    "alphabet": [
+      "\u092e\u093e\u0928\u0915 \u0939\u093f\u0928\u094d\u0926\u0940"
+    ],
     "scenery": [],
     "driving": ["left"],
     "flagColor": ["orange", "white", "green"],
     "flagPattern": ["circle"],
     "roadLine": ["yellow-white", "white-white", "yellow-yellow"],
-    "uniqueLetter": []
+    "uniqueLetter": [],
+    "vehicleType": ["car"],
+    "vehicleColor": []
   },
   "id": {
     "cameras": ["3", "4", "trekker"],
@@ -1053,7 +1202,13 @@
     "flagColor": ["green", "white", "orange"],
     "flagPattern": ["vertical-stripes"],
     "roadLine": ["yellow-white"],
-    "uniqueLetter": ["Áá", "Éé", "Íí", "Óó", "Úú"]
+    "uniqueLetter": [
+      "\u00c1\u00e1",
+      "\u00c9\u00e9",
+      "\u00cd\u00ed",
+      "\u00d3\u00f3",
+      "\u00da\u00fa"
+    ]
   },
   "il": {
     "cameras": ["2", "3", "4", "trekker"],
@@ -1077,7 +1232,9 @@
       "2024"
     ],
     "name": "Israel",
-    "alphabet": ["אָלֶף־בֵּית עִבְרִ"],
+    "alphabet": [
+      "\u05d0\u05b8\u05dc\u05b6\u05e3\u05be\u05d1\u05b5\u05bc\u05d9\u05ea \u05e2\u05b4\u05d1\u05b0\u05e8\u05b4"
+    ],
     "scenery": [],
     "driving": ["right"],
     "flagColor": ["blue", "white"],
@@ -1151,13 +1308,15 @@
       "2025"
     ],
     "name": "Japan",
-    "alphabet": ["日本の東京", "汉语漢語"],
+    "alphabet": ["\u65e5\u672c\u306e\u6771\u4eac", "\u6c49\u8bed\u6f22\u8a9e"],
     "scenery": [],
     "driving": ["left"],
     "flagColor": ["red", "white"],
     "flagPattern": ["circle"],
     "roadLine": ["white-white", "white-yellow"],
-    "uniqueLetter": []
+    "uniqueLetter": [],
+    "vehicleType": ["car"],
+    "vehicleColor": ["white"]
   },
   "jo": {
     "cameras": ["3", "trekker"],
@@ -1174,7 +1333,9 @@
     "flagColor": ["black", "white", "green"],
     "flagPattern": ["stripes", "star"],
     "roadLine": ["yellow-white"],
-    "uniqueLetter": []
+    "uniqueLetter": [],
+    "vehicleType": ["car"],
+    "vehicleColor": ["black"]
   },
   "ke": {
     "cameras": ["3", "4", "trekker"],
@@ -1196,7 +1357,9 @@
     "flagColor": ["black", "red", "green"],
     "flagPattern": ["stripes"],
     "roadLine": ["white-yellow"],
-    "uniqueLetter": []
+    "uniqueLetter": [],
+    "vehicleType": ["truck"],
+    "vehicleColor": ["white", "silver", "brown"]
   },
   "kg": {
     "cameras": ["3", "trekker"],
@@ -1218,7 +1381,9 @@
     "flagColor": ["red", "yellow"],
     "flagPattern": [],
     "roadLine": ["white-white"],
-    "uniqueLetter": []
+    "uniqueLetter": [],
+    "vehicleType": ["truck"],
+    "vehicleColor": ["silver"]
   },
   "la": {
     "cameras": ["3", "trekker"],
@@ -1245,7 +1410,9 @@
     "flagColor": ["red", "blue", "white"],
     "flagPattern": ["stripes", "circle"],
     "roadLine": ["white-white"],
-    "uniqueLetter": []
+    "uniqueLetter": [],
+    "vehicleType": ["truck"],
+    "vehicleColor": []
   },
   "lv": {
     "cameras": ["3", "4", "trekker"],
@@ -1273,17 +1440,17 @@
     "flagPattern": ["stripes"],
     "roadLine": ["white-white"],
     "uniqueLetter": [
-      "Āā",
-      "Čč",
-      "Ēē",
-      "Ģģ",
-      "Īī",
-      "Ķķ",
-      "Ļļ",
-      "Ņņ",
-      "Šš",
-      "Ūū",
-      "Žž"
+      "\u0100\u0101",
+      "\u010c\u010d",
+      "\u0112\u0113",
+      "\u0122\u0123",
+      "\u012a\u012b",
+      "\u0136\u0137",
+      "\u013b\u013c",
+      "\u0145\u0146",
+      "\u0160\u0161",
+      "\u016a\u016b",
+      "\u017d\u017e"
     ]
   },
   "ls": {
@@ -1301,7 +1468,9 @@
     "flagColor": ["blue", "white", "green"],
     "flagPattern": ["stripes"],
     "roadLine": ["yellow-white"],
-    "uniqueLetter": []
+    "uniqueLetter": [],
+    "vehicleType": ["car"],
+    "vehicleColor": []
   },
   "lt": {
     "cameras": ["3", "4", "trekker"],
@@ -1328,7 +1497,17 @@
     "flagColor": ["yellow", "green", "red"],
     "flagPattern": ["stripes"],
     "roadLine": ["yellow-white", "white-white"],
-    "uniqueLetter": ["Ąą", "Čč", "Ęę", "Ėė", "Įį", "Šš", "Ūū", "Ųų", "Žž"]
+    "uniqueLetter": [
+      "\u0104\u0105",
+      "\u010c\u010d",
+      "\u0118\u0119",
+      "\u0116\u0117",
+      "\u012e\u012f",
+      "\u0160\u0161",
+      "\u016a\u016b",
+      "\u0172\u0173",
+      "\u017d\u017e"
+    ]
   },
   "lu": {
     "cameras": ["2", "3", "4", "trekker"],
@@ -1345,7 +1524,15 @@
     "flagColor": ["red", "white", "blue"],
     "flagPattern": ["stripes"],
     "roadLine": ["white-white"],
-    "uniqueLetter": ["Ââ", "Àà", "Éé", "Èè", "Êê", "Її", "Ôô"]
+    "uniqueLetter": [
+      "\u00c2\u00e2",
+      "\u00c0\u00e0",
+      "\u00c9\u00e9",
+      "\u00c8\u00e8",
+      "\u00ca\u00ea",
+      "\u0407\u0457",
+      "\u00d4\u00f4"
+    ]
   },
   "my": {
     "cameras": ["3", "4", "trekker"],
@@ -1405,7 +1592,14 @@
     "flagColor": ["green", "white", "red"],
     "flagPattern": ["vertical-stripes"],
     "roadLine": ["yellow-white", "white-yellow"],
-    "uniqueLetter": ["Áá", "Éé", "Íí", "Ññ", "Óó", "Úú"]
+    "uniqueLetter": [
+      "\u00c1\u00e1",
+      "\u00c9\u00e9",
+      "\u00cd\u00ed",
+      "\u00d1\u00f1",
+      "\u00d3\u00f3",
+      "\u00da\u00fa"
+    ]
   },
   "mc": {
     "cameras": ["1", "2", "3", "4"],
@@ -1444,7 +1638,9 @@
     "flagColor": ["red", "blue"],
     "flagPattern": ["vertical-stripes"],
     "roadLine": ["white-white"],
-    "uniqueLetter": []
+    "uniqueLetter": [],
+    "vehicleType": ["truck"],
+    "vehicleColor": ["white", "blue"]
   },
   "me": {
     "cameras": ["3"],
@@ -1466,7 +1662,31 @@
     "flagColor": ["red", "yellow"],
     "flagPattern": [],
     "roadLine": ["white-white"],
-    "uniqueLetter": ["Ćć", "Đđ", "Šš", "Śś", "Źź", "Žž", "Џџ", "Ћћ", "Ђђ"]
+    "uniqueLetter": [
+      "\u0106\u0107",
+      "\u0110\u0111",
+      "\u0160\u0161",
+      "\u015a\u015b",
+      "\u0179\u017a",
+      "\u017d\u017e",
+      "\u040f\u045f",
+      "\u040b\u045b",
+      "\u0402\u0452"
+    ]
+  },
+  "na": {
+    "cameras": ["4"],
+    "years": ["2024", "2025"],
+    "name": "Namibia",
+    "alphabet": ["latin"],
+    "scenery": ["flat", "desert"],
+    "driving": ["left"],
+    "flagColor": ["blue", "yellow", "red", "green"],
+    "flagPattern": ["diagonal-stripe", "sun"],
+    "roadLine": ["yellow-white"],
+    "uniqueLetter": ["\u00c4\u00e4", "\u00d6\u00f6", "\u00dc\u00fc"],
+    "vehicleColor": ["white"],
+    "vehicleType": ["truck"]
   },
   "np": {
     "cameras": ["trekker"],
@@ -1561,7 +1781,9 @@
     "flagColor": ["green", "white"],
     "flagPattern": ["vertical-stripes"],
     "roadLine": ["yellow-white"],
-    "uniqueLetter": []
+    "uniqueLetter": [],
+    "vehicleType": ["truck"],
+    "vehicleColor": ["white", "red"]
   },
   "mk": {
     "cameras": ["3"],
@@ -1583,7 +1805,13 @@
     "flagColor": ["red", "yellow"],
     "flagPattern": ["stripes"],
     "roadLine": ["white-white", "yellow-yellow"],
-    "uniqueLetter": ["Çç", "Ёё", "Ќќ", "Џџ", "Гг"]
+    "uniqueLetter": [
+      "\u00c7\u00e7",
+      "\u0401\u0451",
+      "\u040c\u045c",
+      "\u040f\u045f",
+      "\u0413\u0433"
+    ]
   },
   "no": {
     "cameras": ["2", "3", "4", "trekker"],
@@ -1618,7 +1846,12 @@
     "flagColor": ["red", "white", "blue"],
     "flagPattern": ["cross"],
     "roadLine": ["white-yellow"],
-    "uniqueLetter": ["Åå", "Ææ", "Éé", "Øø"]
+    "uniqueLetter": [
+      "\u00c5\u00e5",
+      "\u00c6\u00e6",
+      "\u00c9\u00e9",
+      "\u00d8\u00f8"
+    ]
   },
   "pk": {
     "cameras": ["trekker"],
@@ -1690,7 +1923,16 @@
     "flagColor": ["red", "white", "blue"],
     "flagPattern": ["rectangles", "star"],
     "roadLine": [],
-    "uniqueLetter": ["Áá", "Éé", "Íí", "Ññ", "Óó", "Úú"]
+    "uniqueLetter": [
+      "\u00c1\u00e1",
+      "\u00c9\u00e9",
+      "\u00cd\u00ed",
+      "\u00d1\u00f1",
+      "\u00d3\u00f3",
+      "\u00da\u00fa"
+    ],
+    "vehicleType": ["truck"],
+    "vehicleColor": ["white"]
   },
   "pe": {
     "cameras": ["3", "4", "trekker"],
@@ -1719,7 +1961,16 @@
     "flagColor": ["red", "white"],
     "flagPattern": ["vertical-stripes"],
     "roadLine": ["white-white", "white-yellow"],
-    "uniqueLetter": ["Áá", "Éé", "Íí", "Ññ", "Óó", "Úú"]
+    "uniqueLetter": [
+      "\u00c1\u00e1",
+      "\u00c9\u00e9",
+      "\u00cd\u00ed",
+      "\u00d1\u00f1",
+      "\u00d3\u00f3",
+      "\u00da\u00fa"
+    ],
+    "vehicleType": ["car"],
+    "vehicleColor": ["black", "white"]
   },
   "ph": {
     "cameras": ["3", "4", "trekker"],
@@ -1781,7 +2032,16 @@
     "flagColor": ["white", "red"],
     "flagPattern": ["stripes"],
     "roadLine": ["white-white"],
-    "uniqueLetter": ["Ąą", "Ćć", "Ęę", "Łł", "Śś", "Ww", "Żż", "Źź"]
+    "uniqueLetter": [
+      "\u0104\u0105",
+      "\u0106\u0107",
+      "\u0118\u0119",
+      "\u0141\u0142",
+      "\u015a\u015b",
+      "Ww",
+      "\u017b\u017c",
+      "\u0179\u017a"
+    ]
   },
   "pt": {
     "cameras": ["2", "3", "4", "trekker"],
@@ -1815,17 +2075,17 @@
     "flagPattern": ["vertical-stripes"],
     "roadLine": ["yellow-white", "white-white"],
     "uniqueLetter": [
-      "Áá",
-      "Ââ",
-      "Ãã",
-      "Çç",
-      "Éé",
-      "Êê",
-      "Íí",
-      "Õõ",
-      "Óó",
-      "Ôô",
-      "Úú"
+      "\u00c1\u00e1",
+      "\u00c2\u00e2",
+      "\u00c3\u00e3",
+      "\u00c7\u00e7",
+      "\u00c9\u00e9",
+      "\u00ca\u00ea",
+      "\u00cd\u00ed",
+      "\u00d5\u00f5",
+      "\u00d3\u00f3",
+      "\u00d4\u00f4",
+      "\u00da\u00fa"
     ]
   },
   "qa": {
@@ -1847,7 +2107,9 @@
     "flagColor": ["white", "maroon"],
     "flagPattern": ["zigzag"],
     "roadLine": ["white-yellow"],
-    "uniqueLetter": []
+    "uniqueLetter": [],
+    "vehicleType": ["truck"],
+    "vehicleColor": ["white"]
   },
   "ro": {
     "cameras": ["2", "3", "4", "trekker"],
@@ -1874,7 +2136,14 @@
     "flagColor": ["blue", "yellow", "red"],
     "flagPattern": ["vertical-stripes"],
     "roadLine": ["white-white", "yellow-yellow"],
-    "uniqueLetter": ["Ăă", "Ââ", "Îî", "Șș", "Țț", "Ww"]
+    "uniqueLetter": [
+      "\u0102\u0103",
+      "\u00c2\u00e2",
+      "\u00ce\u00ee",
+      "\u0218\u0219",
+      "\u021a\u021b",
+      "Ww"
+    ]
   },
   "ru": {
     "cameras": ["2", "3", "4", "trekker"],
@@ -1891,7 +2160,12 @@
     "flagColor": ["white", "blue", "red"],
     "flagPattern": ["stripes"],
     "roadLine": ["yellow-white", "white-white", "white-yellow"],
-    "uniqueLetter": ["Ёё", "Ээ", "Гг", "Ыы"]
+    "uniqueLetter": [
+      "\u0401\u0451",
+      "\u042d\u044d",
+      "\u0413\u0433",
+      "\u042b\u044b"
+    ]
   },
   "sm": {
     "cameras": ["2", "3", "4", "trekker"],
@@ -1937,7 +2211,9 @@
     "flagColor": ["green", "yellow", "red"],
     "flagPattern": ["vertical-stripes", "star"],
     "roadLine": ["white-white"],
-    "uniqueLetter": []
+    "uniqueLetter": [],
+    "vehicleType": ["truck"],
+    "vehicleColor": ["white", "silver", "black"]
   },
   "rs": {
     "cameras": ["3", "4"],
@@ -1969,7 +2245,16 @@
     "flagColor": ["red", "blue", "white"],
     "flagPattern": ["stripes"],
     "roadLine": ["white-white"],
-    "uniqueLetter": ["Ćć", "Đđ", "Šš", "Žž", "Џџ", "Ћћ", "Ђђ", "Гг"]
+    "uniqueLetter": [
+      "\u0106\u0107",
+      "\u0110\u0111",
+      "\u0160\u0161",
+      "\u017d\u017e",
+      "\u040f\u045f",
+      "\u040b\u045b",
+      "\u0402\u0452",
+      "\u0413\u0433"
+    ]
   },
   "sg": {
     "cameras": ["2", "3", "4", "trekker"],
@@ -2020,23 +2305,23 @@
     "flagPattern": ["stripes"],
     "roadLine": ["white-white"],
     "uniqueLetter": [
-      "Ää",
-      "Áá",
-      "Čč",
-      "Ďď",
-      "Éé",
-      "Íí",
-      "Ĺĺ",
-      "Ľľ",
-      "Ňň",
-      "Ôô",
-      "Ŕŕ",
-      "Šš",
-      "Ťť",
-      "Úú",
+      "\u00c4\u00e4",
+      "\u00c1\u00e1",
+      "\u010c\u010d",
+      "\u010e\u010f",
+      "\u00c9\u00e9",
+      "\u00cd\u00ed",
+      "\u0139\u013a",
+      "\u013d\u013e",
+      "\u0147\u0148",
+      "\u00d4\u00f4",
+      "\u0154\u0155",
+      "\u0160\u0161",
+      "\u0164\u0165",
+      "\u00da\u00fa",
       "Ww",
-      "Ýý",
-      "Žž"
+      "\u00dd\u00fd",
+      "\u017d\u017e"
     ]
   },
   "si": {
@@ -2063,7 +2348,7 @@
     "flagColor": ["white", "blue", "red"],
     "flagPattern": ["stripes"],
     "roadLine": ["white-white"],
-    "uniqueLetter": ["Čč", "Šš", "Žž"]
+    "uniqueLetter": ["\u010c\u010d", "\u0160\u0161", "\u017d\u017e"]
   },
   "za": {
     "cameras": ["2", "3", "4", "trekker"],
@@ -2133,7 +2418,9 @@
     "flagColor": ["black", "green", "yellow", "white", "red", "blue"],
     "flagPattern": ["stripes"],
     "roadLine": ["yellow-white"],
-    "uniqueLetter": []
+    "uniqueLetter": [],
+    "vehicleType": ["car"],
+    "vehicleColor": []
   },
   "kr": {
     "cameras": ["2", "3", "trekker"],
@@ -2144,7 +2431,7 @@
     ],
     "years": ["2018", "2019", "2020", "2021", "2022", "2024"],
     "name": "South Korea",
-    "alphabet": ["한국인"],
+    "alphabet": ["\ud55c\uad6d\uc778"],
     "scenery": [],
     "driving": ["right"],
     "flagColor": ["white", "blue", "red"],
@@ -2184,7 +2471,14 @@
     "flagColor": ["red", "yellow"],
     "flagPattern": ["stripes"],
     "roadLine": ["yellow-white", "white-white"],
-    "uniqueLetter": ["Áá", "Éé", "Íí", "Ññ", "Óó", "Úú"]
+    "uniqueLetter": [
+      "\u00c1\u00e1",
+      "\u00c9\u00e9",
+      "\u00cd\u00ed",
+      "\u00d1\u00f1",
+      "\u00d3\u00f3",
+      "\u00da\u00fa"
+    ]
   },
   "lk": {
     "cameras": ["3", "4", "low-cam", "shit-cam"],
@@ -2206,7 +2500,9 @@
     "flagColor": ["orange", "green", "yellow", "red"],
     "flagPattern": ["vertical-stripes"],
     "roadLine": ["yellow-white", "white-white"],
-    "uniqueLetter": []
+    "uniqueLetter": [],
+    "vehicleType": ["car"],
+    "vehicleColor": ["blue", "white", "red"]
   },
   "se": {
     "cameras": ["2", "3", "4", "trekker"],
@@ -2242,7 +2538,7 @@
     "flagColor": ["blue", "yellow"],
     "flagPattern": ["cross"],
     "roadLine": ["white-white"],
-    "uniqueLetter": ["Ää", "Åå", "Öö"]
+    "uniqueLetter": ["\u00c4\u00e4", "\u00c5\u00e5", "\u00d6\u00f6"]
   },
   "ch": {
     "cameras": ["2", "3", "4", "low-cam", "trekker"],
@@ -2275,7 +2571,20 @@
     "flagColor": ["red", "white"],
     "flagPattern": ["cross"],
     "roadLine": ["white-white"],
-    "uniqueLetter": ["Ää", "Ââ", "Àà", "Éé", "Èè", "Êê", "Її", "Öö", "Ôô", "Üü"]
+    "uniqueLetter": [
+      "\u00c4\u00e4",
+      "\u00c2\u00e2",
+      "\u00c0\u00e0",
+      "\u00c9\u00e9",
+      "\u00c8\u00e8",
+      "\u00ca\u00ea",
+      "\u0407\u0457",
+      "\u00d6\u00f6",
+      "\u00d4\u00f4",
+      "\u00dc\u00fc"
+    ],
+    "vehicleType": ["car"],
+    "vehicleColor": []
   },
   "tw": {
     "cameras": ["2", "3", "4", "trekker"],
@@ -2328,7 +2637,7 @@
       "2025"
     ],
     "name": "Thailand",
-    "alphabet": ["ชาวไทย"],
+    "alphabet": ["\u0e0a\u0e32\u0e27\u0e44\u0e17\u0e22"],
     "scenery": [],
     "driving": ["left"],
     "flagColor": ["red", "white", "blue"],
@@ -2381,7 +2690,16 @@
     "flagColor": ["red", "white"],
     "flagPattern": ["crescent-star"],
     "roadLine": ["white-white", "white-yellow", "yellow-yellow"],
-    "uniqueLetter": ["Çç", "Ğğ", "Öö", "Óó", "Șș", "Üü"]
+    "uniqueLetter": [
+      "\u00c7\u00e7",
+      "\u011e\u011f",
+      "\u00d6\u00f6",
+      "\u00d3\u00f3",
+      "\u0218\u0219",
+      "\u00dc\u00fc"
+    ],
+    "vehicleType": ["truck"],
+    "vehicleColor": ["gray"]
   },
   "ae": {
     "cameras": ["3", "4"],
@@ -2427,7 +2745,9 @@
     "flagColor": ["green", "white", "black", "red"],
     "flagPattern": ["stripes", "vertical-stripes"],
     "roadLine": ["yellow-white", "yellow-yellow"],
-    "uniqueLetter": []
+    "uniqueLetter": [],
+    "vehicleType": ["car"],
+    "vehicleColor": ["silver"]
   },
   "gb": {
     "cameras": ["2", "3", "4"],
@@ -2527,7 +2847,9 @@
     "flagColor": ["black", "yellow", "red"],
     "flagPattern": ["stripes"],
     "roadLine": ["white-white", "white-yellow"],
-    "uniqueLetter": []
+    "uniqueLetter": [],
+    "vehicleType": ["car"],
+    "vehicleColor": ["white"]
   },
   "ua": {
     "cameras": ["3"],
@@ -2571,7 +2893,14 @@
     "flagColor": ["blue", "yellow"],
     "flagPattern": ["stripes"],
     "roadLine": ["white-white"],
-    "uniqueLetter": ["Її", "Єє", "Гг", "Ґґ"]
+    "uniqueLetter": [
+      "\u0407\u0457",
+      "\u0404\u0454",
+      "\u0413\u0433",
+      "\u0490\u0491"
+    ],
+    "vehicleType": ["car"],
+    "vehicleColor": ["red", "black"]
   },
   "uy": {
     "cameras": ["3", "trekker"],
@@ -2593,7 +2922,16 @@
     "flagColor": ["blue", "white"],
     "flagPattern": ["stripes", "sun"],
     "roadLine": [],
-    "uniqueLetter": ["Áá", "Éé", "Íí", "Ññ", "Óó", "Úú"]
+    "uniqueLetter": [
+      "\u00c1\u00e1",
+      "\u00c9\u00e9",
+      "\u00cd\u00ed",
+      "\u00d1\u00f1",
+      "\u00d3\u00f3",
+      "\u00da\u00fa"
+    ],
+    "vehicleType": ["car"],
+    "vehicleColor": ["black"]
   },
   "vn": {
     "cameras": ["3", "4"],
@@ -2610,7 +2948,9 @@
     "flagColor": ["red", "yellow"],
     "flagPattern": ["star"],
     "roadLine": [],
-    "uniqueLetter": []
+    "uniqueLetter": [],
+    "vehicleType": ["car", "scooter"],
+    "vehicleColor": ["white"]
   },
   "dz": {
     "name": "Algeria",
@@ -2637,21 +2977,21 @@
     "plates": [],
     "years": [],
     "uniqueLetter": [
-      "Áá",
-      "Čč",
-      "Ďď",
-      "Éé",
-      "Ěě",
-      "Íí",
-      "Ňň",
-      "Óó",
-      "Řř",
-      "Šš",
-      "Ťť",
-      "Úú",
-      "Ůů",
-      "Ýý",
-      "Žž"
+      "\u00c1\u00e1",
+      "\u010c\u010d",
+      "\u010e\u010f",
+      "\u00c9\u00e9",
+      "\u011a\u011b",
+      "\u00cd\u00ed",
+      "\u0147\u0148",
+      "\u00d3\u00f3",
+      "\u0158\u0159",
+      "\u0160\u0161",
+      "\u0164\u0165",
+      "\u00da\u00fa",
+      "\u016e\u016f",
+      "\u00dd\u00fd",
+      "\u017d\u017e"
     ]
   },
   "sv": {
